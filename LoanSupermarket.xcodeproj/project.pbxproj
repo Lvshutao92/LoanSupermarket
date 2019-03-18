@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185C4930223F47E70016F4DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C492F223F47E70016F4DE /* AppDelegate.m */; };
+		185C4933223F47E70016F4DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4932223F47E70016F4DE /* ViewController.m */; };
+		185C4936223F47E70016F4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185C4934223F47E70016F4DE /* Main.storyboard */; };
+		185C4938223F48480016F4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185C4937223F48480016F4DE /* Assets.xcassets */; };
+		185C493B223F48480016F4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185C4939223F48480016F4DE /* LaunchScreen.storyboard */; };
+		185C493E223F48490016F4DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C493D223F48490016F4DE /* main.m */; };
+		185C4948223F48490016F4DE /* LoanSupermarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4947223F48490016F4DE /* LoanSupermarketTests.m */; };
+		185C4953223F484A0016F4DE /* LoanSupermarketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4952223F484A0016F4DE /* LoanSupermarketUITests.m */; };
+		185C496F223F5FAF0016F4DE /* LoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C496E223F5FAF0016F4DE /* LoanViewController.m */; };
+		185C4972223F5FB40016F4DE /* CreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4970223F5FB40016F4DE /* CreditCardViewController.m */; };
+		185C4975223F5FBA0016F4DE /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4973223F5FB90016F4DE /* MineViewController.m */; };
+		185C497E223F5FC10016F4DE /* SQCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4976223F5FC00016F4DE /* SQCustomButton.m */; };
+		185C497F223F5FC10016F4DE /* RequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4977223F5FC00016F4DE /* RequestService.m */; };
+		185C4980223F5FC10016F4DE /* CLlocationManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C497A223F5FC00016F4DE /* CLlocationManage.m */; };
+		185C4981223F5FC10016F4DE /* ZCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C497B223F5FC10016F4DE /* ZCControl.m */; };
+		185C4988223F5FC70016F4DE /* MainBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4982223F5FC60016F4DE /* MainBaseViewController.m */; };
+		185C4989223F5FC70016F4DE /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4985223F5FC70016F4DE /* MainNavigationViewController.m */; };
+		185C498A223F5FC70016F4DE /* MainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4987223F5FC70016F4DE /* MainTabbarViewController.m */; };
+		185C498F223F5FD00016F4DE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C498D223F5FD00016F4DE /* LoginViewController.m */; };
+		185C4990223F5FD00016F4DE /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C498E223F5FD00016F4DE /* RegisterViewController.m */; };
+		185C499A223F63A80016F4DE /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4999223F63A80016F4DE /* WMPageController.m */; };
+		185C49A3223F63AF0016F4DE /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C499C223F63AF0016F4DE /* WMMenuItem.m */; };
+		185C49A4223F63AF0016F4DE /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C499E223F63AF0016F4DE /* WMMenuView.m */; };
+		185C49A5223F63AF0016F4DE /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49A1223F63AF0016F4DE /* WMScrollView.m */; };
+		185C49A6223F63AF0016F4DE /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49A2223F63AF0016F4DE /* WMProgressView.m */; };
+		185C49A9223F63BB0016F4DE /* InfoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49A7223F63BB0016F4DE /* InfoBaseViewController.m */; };
+		185C49AC223F64250016F4DE /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49AB223F64250016F4DE /* HomePageViewController.m */; };
+		185C49AF223F6A4C0016F4DE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49AE223F6A4C0016F4DE /* HomeViewController.m */; };
+		185C49B2223F71960016F4DE /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49B1223F71960016F4DE /* Manager.m */; };
+		C7AB1BDD769D761490F7396E /* libPods-LoanSupermarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB64D11D398BFA8DA821178 /* libPods-LoanSupermarket.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185C4944223F48490016F4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185C4923223F47E70016F4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185C492A223F47E70016F4DE;
+			remoteInfo = LoanSupermarket;
+		};
+		185C494F223F484A0016F4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185C4923223F47E70016F4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185C492A223F47E70016F4DE;
+			remoteInfo = LoanSupermarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185C492B223F47E70016F4DE /* LoanSupermarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanSupermarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185C492E223F47E70016F4DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185C492F223F47E70016F4DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185C4931223F47E70016F4DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185C4932223F47E70016F4DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185C4935223F47E70016F4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185C4937223F48480016F4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185C493A223F48480016F4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185C493C223F48490016F4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185C493D223F48490016F4DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185C4943223F48490016F4DE /* LoanSupermarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanSupermarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185C4947223F48490016F4DE /* LoanSupermarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanSupermarketTests.m; sourceTree = "<group>"; };
+		185C4949223F484A0016F4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185C494E223F484A0016F4DE /* LoanSupermarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanSupermarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185C4952223F484A0016F4DE /* LoanSupermarketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanSupermarketUITests.m; sourceTree = "<group>"; };
+		185C4954223F484A0016F4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185C4960223F5EE60016F4DE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		185C4961223F5EEE0016F4DE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		185C496D223F5FAF0016F4DE /* LoanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanViewController.h; sourceTree = "<group>"; };
+		185C496E223F5FAF0016F4DE /* LoanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanViewController.m; sourceTree = "<group>"; };
+		185C4970223F5FB40016F4DE /* CreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardViewController.m; sourceTree = "<group>"; };
+		185C4971223F5FB40016F4DE /* CreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardViewController.h; sourceTree = "<group>"; };
+		185C4973223F5FB90016F4DE /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		185C4974223F5FBA0016F4DE /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		185C4976223F5FC00016F4DE /* SQCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCustomButton.m; sourceTree = "<group>"; };
+		185C4977223F5FC00016F4DE /* RequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestService.m; sourceTree = "<group>"; };
+		185C4978223F5FC00016F4DE /* RequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestService.h; sourceTree = "<group>"; };
+		185C4979223F5FC00016F4DE /* SQCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCustomButton.h; sourceTree = "<group>"; };
+		185C497A223F5FC00016F4DE /* CLlocationManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLlocationManage.m; sourceTree = "<group>"; };
+		185C497B223F5FC10016F4DE /* ZCControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCControl.m; sourceTree = "<group>"; };
+		185C497C223F5FC10016F4DE /* CLlocationManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLlocationManage.h; sourceTree = "<group>"; };
+		185C497D223F5FC10016F4DE /* ZCControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCControl.h; sourceTree = "<group>"; };
+		185C4982223F5FC60016F4DE /* MainBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBaseViewController.m; sourceTree = "<group>"; };
+		185C4983223F5FC70016F4DE /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		185C4984223F5FC70016F4DE /* MainBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBaseViewController.h; sourceTree = "<group>"; };
+		185C4985223F5FC70016F4DE /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		185C4986223F5FC70016F4DE /* MainTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabbarViewController.h; sourceTree = "<group>"; };
+		185C4987223F5FC70016F4DE /* MainTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabbarViewController.m; sourceTree = "<group>"; };
+		185C498B223F5FD00016F4DE /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		185C498C223F5FD00016F4DE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		185C498D223F5FD00016F4DE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		185C498E223F5FD00016F4DE /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		185C4997223F63A70016F4DE /* WMPageConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageConst.h; sourceTree = "<group>"; };
+		185C4998223F63A70016F4DE /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		185C4999223F63A80016F4DE /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		185C499B223F63AF0016F4DE /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		185C499C223F63AF0016F4DE /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		185C499D223F63AF0016F4DE /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		185C499E223F63AF0016F4DE /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		185C499F223F63AF0016F4DE /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		185C49A0223F63AF0016F4DE /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
+		185C49A1223F63AF0016F4DE /* WMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
+		185C49A2223F63AF0016F4DE /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		185C49A7223F63BB0016F4DE /* InfoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBaseViewController.m; sourceTree = "<group>"; };
+		185C49A8223F63BB0016F4DE /* InfoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoBaseViewController.h; sourceTree = "<group>"; };
+		185C49AA223F64250016F4DE /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		185C49AB223F64250016F4DE /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		185C49AD223F6A4C0016F4DE /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		185C49AE223F6A4C0016F4DE /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		185C49B0223F71960016F4DE /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		185C49B1223F71960016F4DE /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		6BC4B37E708A73382D47DE04 /* Pods-LoanSupermarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanSupermarket.release.xcconfig"; path = "Target Support Files/Pods-LoanSupermarket/Pods-LoanSupermarket.release.xcconfig"; sourceTree = "<group>"; };
+		9DB64D11D398BFA8DA821178 /* libPods-LoanSupermarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoanSupermarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45E9C5A112187668E9FAE41 /* Pods-LoanSupermarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanSupermarket.debug.xcconfig"; path = "Target Support Files/Pods-LoanSupermarket/Pods-LoanSupermarket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185C4928223F47E70016F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AB1BDD769D761490F7396E /* libPods-LoanSupermarket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185C4940223F48490016F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185C494B223F484A0016F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185C4922223F47E70016F4DE = {
+			isa = PBXGroup;
+			children = (
+				185C492D223F47E70016F4DE /* LoanSupermarket */,
+				185C4946223F48490016F4DE /* LoanSupermarketTests */,
+				185C4951223F484A0016F4DE /* LoanSupermarketUITests */,
+				185C492C223F47E70016F4DE /* Products */,
+				A3739D5040CA3954981F8DC0 /* Pods */,
+				2D63B4D145558FA39915B85D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185C492C223F47E70016F4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185C492B223F47E70016F4DE /* LoanSupermarket.app */,
+				185C4943223F48490016F4DE /* LoanSupermarketTests.xctest */,
+				185C494E223F484A0016F4DE /* LoanSupermarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185C492D223F47E70016F4DE /* LoanSupermarket */ = {
+			isa = PBXGroup;
+			children = (
+				185C492E223F47E70016F4DE /* AppDelegate.h */,
+				185C492F223F47E70016F4DE /* AppDelegate.m */,
+				185C4931223F47E70016F4DE /* ViewController.h */,
+				185C4932223F47E70016F4DE /* ViewController.m */,
+				185C4960223F5EE60016F4DE /* PrefixHeader.pch */,
+				185C4961223F5EEE0016F4DE /* Header.h */,
+				185C4969223F5F940016F4DE /* homepage */,
+				185C4968223F5F8C0016F4DE /* loan */,
+				185C4967223F5F800016F4DE /* creditcard */,
+				185C4966223F5F7A0016F4DE /* mine */,
+				185C4965223F5F740016F4DE /* tools */,
+				185C4964223F5F6E0016F4DE /* mainbase */,
+				185C4963223F5F680016F4DE /* third */,
+				185C4962223F5F620016F4DE /* user */,
+				185C4934223F47E70016F4DE /* Main.storyboard */,
+				185C4937223F48480016F4DE /* Assets.xcassets */,
+				185C4939223F48480016F4DE /* LaunchScreen.storyboard */,
+				185C493C223F48490016F4DE /* Info.plist */,
+				185C493D223F48490016F4DE /* main.m */,
+			);
+			path = LoanSupermarket;
+			sourceTree = "<group>";
+		};
+		185C4946223F48490016F4DE /* LoanSupermarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				185C4947223F48490016F4DE /* LoanSupermarketTests.m */,
+				185C4949223F484A0016F4DE /* Info.plist */,
+			);
+			path = LoanSupermarketTests;
+			sourceTree = "<group>";
+		};
+		185C4951223F484A0016F4DE /* LoanSupermarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185C4952223F484A0016F4DE /* LoanSupermarketUITests.m */,
+				185C4954223F484A0016F4DE /* Info.plist */,
+			);
+			path = LoanSupermarketUITests;
+			sourceTree = "<group>";
+		};
+		185C4962223F5F620016F4DE /* user */ = {
+			isa = PBXGroup;
+			children = (
+				185C498C223F5FD00016F4DE /* LoginViewController.h */,
+				185C498D223F5FD00016F4DE /* LoginViewController.m */,
+				185C498B223F5FD00016F4DE /* RegisterViewController.h */,
+				185C498E223F5FD00016F4DE /* RegisterViewController.m */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		185C4963223F5F680016F4DE /* third */ = {
+			isa = PBXGroup;
+			children = (
+				185C4995223F63960016F4DE /* WMPageController */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		185C4964223F5F6E0016F4DE /* mainbase */ = {
+			isa = PBXGroup;
+			children = (
+				185C4984223F5FC70016F4DE /* MainBaseViewController.h */,
+				185C4982223F5FC60016F4DE /* MainBaseViewController.m */,
+				185C4983223F5FC70016F4DE /* MainNavigationViewController.h */,
+				185C4985223F5FC70016F4DE /* MainNavigationViewController.m */,
+				185C4986223F5FC70016F4DE /* MainTabbarViewController.h */,
+				185C4987223F5FC70016F4DE /* MainTabbarViewController.m */,
+			);
+			path = mainbase;
+			sourceTree = "<group>";
+		};
+		185C4965223F5F740016F4DE /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				185C497C223F5FC10016F4DE /* CLlocationManage.h */,
+				185C497A223F5FC00016F4DE /* CLlocationManage.m */,
+				185C4978223F5FC00016F4DE /* RequestService.h */,
+				185C4977223F5FC00016F4DE /* RequestService.m */,
+				185C4979223F5FC00016F4DE /* SQCustomButton.h */,
+				185C4976223F5FC00016F4DE /* SQCustomButton.m */,
+				185C497D223F5FC10016F4DE /* ZCControl.h */,
+				185C497B223F5FC10016F4DE /* ZCControl.m */,
+				185C49B0223F71960016F4DE /* Manager.h */,
+				185C49B1223F71960016F4DE /* Manager.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		185C4966223F5F7A0016F4DE /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				185C4974223F5FBA0016F4DE /* MineViewController.h */,
+				185C4973223F5FB90016F4DE /* MineViewController.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		185C4967223F5F800016F4DE /* creditcard */ = {
+			isa = PBXGroup;
+			children = (
+				185C4971223F5FB40016F4DE /* CreditCardViewController.h */,
+				185C4970223F5FB40016F4DE /* CreditCardViewController.m */,
+			);
+			path = creditcard;
+			sourceTree = "<group>";
+		};
+		185C4968223F5F8C0016F4DE /* loan */ = {
+			isa = PBXGroup;
+			children = (
+				185C496D223F5FAF0016F4DE /* LoanViewController.h */,
+				185C496E223F5FAF0016F4DE /* LoanViewController.m */,
+			);
+			path = loan;
+			sourceTree = "<group>";
+		};
+		185C4969223F5F940016F4DE /* homepage */ = {
+			isa = PBXGroup;
+			children = (
+				185C49A8223F63BB0016F4DE /* InfoBaseViewController.h */,
+				185C49A7223F63BB0016F4DE /* InfoBaseViewController.m */,
+				185C49AA223F64250016F4DE /* HomePageViewController.h */,
+				185C49AB223F64250016F4DE /* HomePageViewController.m */,
+				185C49AD223F6A4C0016F4DE /* HomeViewController.h */,
+				185C49AE223F6A4C0016F4DE /* HomeViewController.m */,
+			);
+			path = homepage;
+			sourceTree = "<group>";
+		};
+		185C4995223F63960016F4DE /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				185C4997223F63A70016F4DE /* WMPageConst.h */,
+				185C4998223F63A70016F4DE /* WMPageController.h */,
+				185C4999223F63A80016F4DE /* WMPageController.m */,
+				185C4996223F63A00016F4DE /* WMMenuView */,
+			);
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		185C4996223F63A00016F4DE /* WMMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				185C49A0223F63AF0016F4DE /* WMScrollView.h */,
+				185C499F223F63AF0016F4DE /* WMMenuItem.h */,
+				185C499B223F63AF0016F4DE /* WMMenuView.h */,
+				185C499D223F63AF0016F4DE /* WMProgressView.h */,
+				185C499C223F63AF0016F4DE /* WMMenuItem.m */,
+				185C49A1223F63AF0016F4DE /* WMScrollView.m */,
+				185C499E223F63AF0016F4DE /* WMMenuView.m */,
+				185C49A2223F63AF0016F4DE /* WMProgressView.m */,
+			);
+			path = WMMenuView;
+			sourceTree = "<group>";
+		};
+		2D63B4D145558FA39915B85D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DB64D11D398BFA8DA821178 /* libPods-LoanSupermarket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3739D5040CA3954981F8DC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D45E9C5A112187668E9FAE41 /* Pods-LoanSupermarket.debug.xcconfig */,
+				6BC4B37E708A73382D47DE04 /* Pods-LoanSupermarket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185C492A223F47E70016F4DE /* LoanSupermarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185C4957223F484A0016F4DE /* Build configuration list for PBXNativeTarget "LoanSupermarket" */;
+			buildPhases = (
+				BA9A9C22623EC9C9316B973E /* [CP] Check Pods Manifest.lock */,
+				185C4927223F47E70016F4DE /* Sources */,
+				185C4928223F47E70016F4DE /* Frameworks */,
+				185C4929223F47E70016F4DE /* Resources */,
+				55DACDD7A5837390C9612A6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoanSupermarket;
+			productName = LoanSupermarket;
+			productReference = 185C492B223F47E70016F4DE /* LoanSupermarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185C4942223F48490016F4DE /* LoanSupermarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185C495A223F484A0016F4DE /* Build configuration list for PBXNativeTarget "LoanSupermarketTests" */;
+			buildPhases = (
+				185C493F223F48490016F4DE /* Sources */,
+				185C4940223F48490016F4DE /* Frameworks */,
+				185C4941223F48490016F4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185C4945223F48490016F4DE /* PBXTargetDependency */,
+			);
+			name = LoanSupermarketTests;
+			productName = LoanSupermarketTests;
+			productReference = 185C4943223F48490016F4DE /* LoanSupermarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185C494D223F484A0016F4DE /* LoanSupermarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185C495D223F484A0016F4DE /* Build configuration list for PBXNativeTarget "LoanSupermarketUITests" */;
+			buildPhases = (
+				185C494A223F484A0016F4DE /* Sources */,
+				185C494B223F484A0016F4DE /* Frameworks */,
+				185C494C223F484A0016F4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185C4950223F484A0016F4DE /* PBXTargetDependency */,
+			);
+			name = LoanSupermarketUITests;
+			productName = LoanSupermarketUITests;
+			productReference = 185C494E223F484A0016F4DE /* LoanSupermarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185C4923223F47E70016F4DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					185C492A223F47E70016F4DE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					185C4942223F48490016F4DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 185C492A223F47E70016F4DE;
+					};
+					185C494D223F484A0016F4DE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 185C492A223F47E70016F4DE;
+					};
+				};
+			};
+			buildConfigurationList = 185C4926223F47E70016F4DE /* Build configuration list for PBXProject "LoanSupermarket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185C4922223F47E70016F4DE;
+			productRefGroup = 185C492C223F47E70016F4DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185C492A223F47E70016F4DE /* LoanSupermarket */,
+				185C4942223F48490016F4DE /* LoanSupermarketTests */,
+				185C494D223F484A0016F4DE /* LoanSupermarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185C4929223F47E70016F4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185C493B223F48480016F4DE /* LaunchScreen.storyboard in Resources */,
+				185C4938223F48480016F4DE /* Assets.xcassets in Resources */,
+				185C4936223F47E70016F4DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185C4941223F48490016F4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185C494C223F484A0016F4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55DACDD7A5837390C9612A6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoanSupermarket/Pods-LoanSupermarket-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoanSupermarket/Pods-LoanSupermarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9A9C22623EC9C9316B973E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoanSupermarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185C4927223F47E70016F4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185C496F223F5FAF0016F4DE /* LoanViewController.m in Sources */,
+				185C4975223F5FBA0016F4DE /* MineViewController.m in Sources */,
+				185C4988223F5FC70016F4DE /* MainBaseViewController.m in Sources */,
+				185C49A9223F63BB0016F4DE /* InfoBaseViewController.m in Sources */,
+				185C499A223F63A80016F4DE /* WMPageController.m in Sources */,
+				185C4972223F5FB40016F4DE /* CreditCardViewController.m in Sources */,
+				185C49A3223F63AF0016F4DE /* WMMenuItem.m in Sources */,
+				185C49B2223F71960016F4DE /* Manager.m in Sources */,
+				185C497F223F5FC10016F4DE /* RequestService.m in Sources */,
+				185C49A4223F63AF0016F4DE /* WMMenuView.m in Sources */,
+				185C49AF223F6A4C0016F4DE /* HomeViewController.m in Sources */,
+				185C4933223F47E70016F4DE /* ViewController.m in Sources */,
+				185C4990223F5FD00016F4DE /* RegisterViewController.m in Sources */,
+				185C4981223F5FC10016F4DE /* ZCControl.m in Sources */,
+				185C49A6223F63AF0016F4DE /* WMProgressView.m in Sources */,
+				185C49AC223F64250016F4DE /* HomePageViewController.m in Sources */,
+				185C4989223F5FC70016F4DE /* MainNavigationViewController.m in Sources */,
+				185C4980223F5FC10016F4DE /* CLlocationManage.m in Sources */,
+				185C493E223F48490016F4DE /* main.m in Sources */,
+				185C498A223F5FC70016F4DE /* MainTabbarViewController.m in Sources */,
+				185C497E223F5FC10016F4DE /* SQCustomButton.m in Sources */,
+				185C4930223F47E70016F4DE /* AppDelegate.m in Sources */,
+				185C498F223F5FD00016F4DE /* LoginViewController.m in Sources */,
+				185C49A5223F63AF0016F4DE /* WMScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185C493F223F48490016F4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185C4948223F48490016F4DE /* LoanSupermarketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185C494A223F484A0016F4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185C4953223F484A0016F4DE /* LoanSupermarketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185C4945223F48490016F4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185C492A223F47E70016F4DE /* LoanSupermarket */;
+			targetProxy = 185C4944223F48490016F4DE /* PBXContainerItemProxy */;
+		};
+		185C4950223F484A0016F4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185C492A223F47E70016F4DE /* LoanSupermarket */;
+			targetProxy = 185C494F223F484A0016F4DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185C4934223F47E70016F4DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185C4935223F47E70016F4DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185C4939223F48480016F4DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185C493A223F48480016F4DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185C4955223F484A0016F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185C4956223F484A0016F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185C4958223F484A0016F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45E9C5A112187668E9FAE41 /* Pods-LoanSupermarket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8TD9N5X56;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoanSupermarket/PrefixHeader.pch";
+				INFOPLIST_FILE = LoanSupermarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.LoanSupermarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		185C4959223F484A0016F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC4B37E708A73382D47DE04 /* Pods-LoanSupermarket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8TD9N5X56;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoanSupermarket/PrefixHeader.pch";
+				INFOPLIST_FILE = LoanSupermarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.LoanSupermarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		185C495B223F484A0016F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoanSupermarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.LoanSupermarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoanSupermarket.app/LoanSupermarket";
+			};
+			name = Debug;
+		};
+		185C495C223F484A0016F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoanSupermarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.LoanSupermarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoanSupermarket.app/LoanSupermarket";
+			};
+			name = Release;
+		};
+		185C495E223F484A0016F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoanSupermarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.LoanSupermarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoanSupermarket;
+			};
+			name = Debug;
+		};
+		185C495F223F484A0016F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoanSupermarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.LoanSupermarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoanSupermarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185C4926223F47E70016F4DE /* Build configuration list for PBXProject "LoanSupermarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185C4955223F484A0016F4DE /* Debug */,
+				185C4956223F484A0016F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185C4957223F484A0016F4DE /* Build configuration list for PBXNativeTarget "LoanSupermarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185C4958223F484A0016F4DE /* Debug */,
+				185C4959223F484A0016F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185C495A223F484A0016F4DE /* Build configuration list for PBXNativeTarget "LoanSupermarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185C495B223F484A0016F4DE /* Debug */,
+				185C495C223F484A0016F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185C495D223F484A0016F4DE /* Build configuration list for PBXNativeTarget "LoanSupermarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185C495E223F484A0016F4DE /* Debug */,
+				185C495F223F484A0016F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185C4923223F47E70016F4DE /* Project object */;
+}
