@@ -33,11 +33,25 @@
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
-    if (self.viewControllers.count > 0)
-    {
-        viewController.hidesBottomBarWhenPushed = YES;
+    
+    if (self.childViewControllers.count>0) {
+        UIButton *but=[ZCControl createButtonWithFrame:CGRectMake(0, 7, 30, 30) ImageName:@"fanhui" Target:self Action:@selector(back)];
+        UIView *vie = [ZCControl viewWithFrame:CGRectMake(0, 0, 44, 44) viewColor:nil];
+        [vie addSubview:but];
+        viewController.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithCustomView:vie];
+        viewController.hidesBottomBarWhenPushed=YES;
     }
+    
+    
     [super pushViewController:viewController animated:animated];
+    
+}
+
+
+- (void)back
+
+{
+    [self popViewControllerAnimated:YES];
 }
 /*
 #pragma mark - Navigation

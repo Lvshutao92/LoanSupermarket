@@ -20,7 +20,7 @@
 /**
  导航栏文字
  */
-@property (nonatomic,strong)UILabel *titleLa;
+@property (nonatomic,strong)UIImageView *imgv;
 @property (nonatomic,strong)UIView *navBarView;
 @property (nonatomic,strong)UIButton *localButton;
 

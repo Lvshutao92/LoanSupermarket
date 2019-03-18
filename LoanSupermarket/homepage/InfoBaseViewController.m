@@ -74,22 +74,17 @@
         _navBarView.backgroundColor = [UIColor whiteColor];
         _navBarView.alpha = 1;
         _navBarView.userInteractionEnabled = YES;
-        [_navBarView addSubview:self.titleLa];
+        [_navBarView addSubview:self.imgv];
         [_navBarView addSubview:self.localButton];
     }
     return _navBarView;
 }
-
-- (UILabel *)titleLa{
-    if (!_titleLa) {
-        _titleLa = [UILabel new];
-        _titleLa.text = @"";
-        _titleLa.frame = CGRectMake(0, kStatusBarHeight, SCREEN_WIDTH, 44);
-        _titleLa.textColor = [UIColor blackColor];
-        _titleLa.textAlignment = NSTextAlignmentCenter;
-        [_titleLa setFont:[UIFont fontWithName:@"Helvetica-Bold" size:16]];
+- (UIImageView *)imgv{
+    if (!_imgv) {
+        _imgv = [ZCControl createImageViewWithFrame:CGRectMake(50, kStatusBarHeight+12, SCREEN_WIDTH-100, 20) ImageName:@"top"];
+        _imgv.contentMode = UIViewContentModeScaleAspectFit;
     }
-    return _titleLa;
+    return _imgv;
 }
 
 

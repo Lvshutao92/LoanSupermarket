@@ -22,14 +22,13 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGFloat offset = scrollView.contentOffset.y;
-    self.navBarView.alpha = (offset)/100;
+    self.navBarView.alpha = (offset)/80;
 }
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.titleLa.text = @"去哪儿借";
     [self.view addSubview:self.mainTableView];
     
     [self.localButton addTarget:self action:@selector(clickbbb) forControlEvents:UIControlEventTouchUpInside];
@@ -52,13 +51,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.textLabel.text = @"还是防洪设施个粉红色";
     
     return cell;
-    
 }
 
 

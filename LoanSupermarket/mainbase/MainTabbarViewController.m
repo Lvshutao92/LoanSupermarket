@@ -27,31 +27,31 @@
     if (self = [super init]) {
         HomePageViewController *oneVc = [[HomePageViewController alloc]init];
         MainNavigationViewController *aaa = [[MainNavigationViewController alloc]initWithRootViewController:oneVc];
-        aaa.tabBarItem.image = [UIImage imageNamed:@"1"];
+        aaa.tabBarItem.image = [UIImage imageNamed:@"ic_icon_1_normal"];
         aaa.tabBarItem.title = @"首页";
-        aaa.tabBarItem.selectedImage = [UIImage imageNamed:@"01"];
+        aaa.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_icon_1_pressed"];
         
         LoanViewController *zeroVc = [[LoanViewController alloc]init];
         MainNavigationViewController *ccc = [[MainNavigationViewController alloc]initWithRootViewController:zeroVc];
-        ccc.tabBarItem.image = [UIImage imageNamed:@"2"];
+        ccc.tabBarItem.image = [UIImage imageNamed:@"ic_icon_2_normal"];
         zeroVc.title = @"贷款大全";
-        ccc.tabBarItem.selectedImage = [UIImage imageNamed:@"2"];
+        ccc.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_icon_2_pressed"];
         
         CreditCardViewController *credVc = [[CreditCardViewController alloc]init];
         MainNavigationViewController *ddd = [[MainNavigationViewController alloc]initWithRootViewController:credVc];
-        ddd.tabBarItem.image = [UIImage imageNamed:@"3"];
+        ddd.tabBarItem.image = [UIImage imageNamed:@"ic_icon_4_normal"];
         credVc.title = @"信用卡";
-        ddd.tabBarItem.selectedImage = [UIImage imageNamed:@"03"];
+        ddd.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_icon_4_pressed"];
         
         
         
         MineViewController *twpVc = [[MineViewController alloc]init];
         MainNavigationViewController *bbb = [[MainNavigationViewController alloc]initWithRootViewController:twpVc];
-        bbb.tabBarItem.image = [UIImage imageNamed:@"4"];
+        bbb.tabBarItem.image = [UIImage imageNamed:@"ic_icon_5_normal"];
         twpVc.title = @"我的";
-        bbb.tabBarItem.selectedImage = [UIImage imageNamed:@"04"];
+        bbb.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_icon_5_pressed"];
         
-        self.tabBar.tintColor = RGBACOLOR(0, 191, 255, 1);
+        self.tabBar.tintColor = RGBACOLOR(41, 147, 252, 1);
         self.viewControllers = @[aaa,ccc,ddd,bbb];
     }
     return self;
