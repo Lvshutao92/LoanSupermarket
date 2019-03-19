@@ -10,7 +10,7 @@
 #define PrefixHeader_pch
 
 
-
+#define baseColor [UIColor colorWithRed:62/255.0 green:146/255.0 blue:255/255.0 alpha:1.0]
 #define RGB(a,b,c)  [UIColor colorWithRed:a/255.0 green:b/255.0 blue:c/255.0 alpha:1.0]
 
 #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
@@ -43,6 +43,7 @@
 #import "Header.h"
 #import "CLlocationManage.h"
 #import "Manager.h"
+#import "SQButton.h"
 
 
 //判断 iOS 8 或更高的系统版本
@@ -102,6 +103,22 @@
 #define kTopBarDifHeight (CGFloat)(YYISiPhoneX?(24):(0))
 
 
+
+
+#import "NSArray+ZMAdd.h"
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+#define WEAKSELF __weak typeof(self) weakSelf = self
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define FIT_WIDTH [UIScreen mainScreen].bounds.size.width/375
+
+#define KSelectBorderColor      [UIColor colorWithRed:253/255.0 green:206/255.0 blue:41/255.0 alpha:1]
+#define KUnSelectBorderColor    [UIColor colorWithRed:204/255.0 green:204/255.0 blue:204/255.0 alpha:1]
+#define KButtonColor            [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]
 
 
 #endif /* PrefixHeader_pch */

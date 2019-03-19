@@ -17,7 +17,6 @@
 		185C4953223F484A0016F4DE /* LoanSupermarketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4952223F484A0016F4DE /* LoanSupermarketUITests.m */; };
 		185C496F223F5FAF0016F4DE /* LoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C496E223F5FAF0016F4DE /* LoanViewController.m */; };
 		185C4972223F5FB40016F4DE /* CreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4970223F5FB40016F4DE /* CreditCardViewController.m */; };
-		185C4975223F5FBA0016F4DE /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4973223F5FB90016F4DE /* MineViewController.m */; };
 		185C497E223F5FC10016F4DE /* SQCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4976223F5FC00016F4DE /* SQCustomButton.m */; };
 		185C497F223F5FC10016F4DE /* RequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C4977223F5FC00016F4DE /* RequestService.m */; };
 		185C4980223F5FC10016F4DE /* CLlocationManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C497A223F5FC00016F4DE /* CLlocationManage.m */; };
@@ -34,8 +33,19 @@
 		185C49A6223F63AF0016F4DE /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49A2223F63AF0016F4DE /* WMProgressView.m */; };
 		185C49A9223F63BB0016F4DE /* InfoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49A7223F63BB0016F4DE /* InfoBaseViewController.m */; };
 		185C49AC223F64250016F4DE /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49AB223F64250016F4DE /* HomePageViewController.m */; };
-		185C49AF223F6A4C0016F4DE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49AE223F6A4C0016F4DE /* HomeViewController.m */; };
 		185C49B2223F71960016F4DE /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49B1223F71960016F4DE /* Manager.m */; };
+		7565A87622407460005653EB /* SQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A87522407460005653EB /* SQButton.m */; };
+		7565A87D224089E9005653EB /* MoreDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A87A224089E8005653EB /* MoreDropDownMenu.m */; };
+		7565A87E224089E9005653EB /* MoreDropDownMenuRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A87C224089E9005653EB /* MoreDropDownMenuRowCell.m */; };
+		7565A881224089F2005653EB /* NSArray+ZMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A87F224089F2005653EB /* NSArray+ZMAdd.m */; };
+		7565A8872240BBF8005653EB /* MineBaseInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A8862240BBF8005653EB /* MineBaseInfoViewController.m */; };
+		7565A88A2240BC36005653EB /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A8892240BC36005653EB /* MineViewController.m */; };
+		7565A88E2240CF35005653EB /* HomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A88C2240CF35005653EB /* HomePageTableViewCell.m */; };
+		7565A88F2240CF35005653EB /* HomePageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7565A88D2240CF35005653EB /* HomePageTableViewCell.xib */; };
+		7565A8932240D38A005653EB /* LoanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A8912240D38A005653EB /* LoanTableViewCell.m */; };
+		7565A8942240D38A005653EB /* LoanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7565A8922240D38A005653EB /* LoanTableViewCell.xib */; };
+		7565A8982240DD32005653EB /* CreditCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A8962240DD32005653EB /* CreditCardTableViewCell.m */; };
+		7565A8992240DD32005653EB /* CreditCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7565A8972240DD32005653EB /* CreditCardTableViewCell.xib */; };
 		C7AB1BDD769D761490F7396E /* libPods-LoanSupermarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB64D11D398BFA8DA821178 /* libPods-LoanSupermarket.a */; };
 /* End PBXBuildFile section */
 
@@ -79,8 +89,6 @@
 		185C496E223F5FAF0016F4DE /* LoanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanViewController.m; sourceTree = "<group>"; };
 		185C4970223F5FB40016F4DE /* CreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardViewController.m; sourceTree = "<group>"; };
 		185C4971223F5FB40016F4DE /* CreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardViewController.h; sourceTree = "<group>"; };
-		185C4973223F5FB90016F4DE /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
-		185C4974223F5FBA0016F4DE /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		185C4976223F5FC00016F4DE /* SQCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCustomButton.m; sourceTree = "<group>"; };
 		185C4977223F5FC00016F4DE /* RequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestService.m; sourceTree = "<group>"; };
 		185C4978223F5FC00016F4DE /* RequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestService.h; sourceTree = "<group>"; };
@@ -114,11 +122,30 @@
 		185C49A8223F63BB0016F4DE /* InfoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoBaseViewController.h; sourceTree = "<group>"; };
 		185C49AA223F64250016F4DE /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		185C49AB223F64250016F4DE /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
-		185C49AD223F6A4C0016F4DE /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		185C49AE223F6A4C0016F4DE /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		185C49B0223F71960016F4DE /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		185C49B1223F71960016F4DE /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 		6BC4B37E708A73382D47DE04 /* Pods-LoanSupermarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanSupermarket.release.xcconfig"; path = "Target Support Files/Pods-LoanSupermarket/Pods-LoanSupermarket.release.xcconfig"; sourceTree = "<group>"; };
+		7565A87422407460005653EB /* SQButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQButton.h; sourceTree = "<group>"; };
+		7565A87522407460005653EB /* SQButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQButton.m; sourceTree = "<group>"; };
+		7565A879224089E8005653EB /* MoreDropDownMenuRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDropDownMenuRowCell.h; sourceTree = "<group>"; };
+		7565A87A224089E8005653EB /* MoreDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownMenu.m; sourceTree = "<group>"; };
+		7565A87B224089E9005653EB /* MoreDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDropDownMenu.h; sourceTree = "<group>"; };
+		7565A87C224089E9005653EB /* MoreDropDownMenuRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownMenuRowCell.m; sourceTree = "<group>"; };
+		7565A87F224089F2005653EB /* NSArray+ZMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZMAdd.m"; sourceTree = "<group>"; };
+		7565A880224089F2005653EB /* NSArray+ZMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZMAdd.h"; sourceTree = "<group>"; };
+		7565A8852240BBF8005653EB /* MineBaseInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineBaseInfoViewController.h; sourceTree = "<group>"; };
+		7565A8862240BBF8005653EB /* MineBaseInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineBaseInfoViewController.m; sourceTree = "<group>"; };
+		7565A8882240BC35005653EB /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		7565A8892240BC36005653EB /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		7565A88B2240CF35005653EB /* HomePageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewCell.h; sourceTree = "<group>"; };
+		7565A88C2240CF35005653EB /* HomePageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewCell.m; sourceTree = "<group>"; };
+		7565A88D2240CF35005653EB /* HomePageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageTableViewCell.xib; sourceTree = "<group>"; };
+		7565A8902240D389005653EB /* LoanTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoanTableViewCell.h; sourceTree = "<group>"; };
+		7565A8912240D38A005653EB /* LoanTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanTableViewCell.m; sourceTree = "<group>"; };
+		7565A8922240D38A005653EB /* LoanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoanTableViewCell.xib; sourceTree = "<group>"; };
+		7565A8952240DD32005653EB /* CreditCardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditCardTableViewCell.h; sourceTree = "<group>"; };
+		7565A8962240DD32005653EB /* CreditCardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCardTableViewCell.m; sourceTree = "<group>"; };
+		7565A8972240DD32005653EB /* CreditCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditCardTableViewCell.xib; sourceTree = "<group>"; };
 		9DB64D11D398BFA8DA821178 /* libPods-LoanSupermarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoanSupermarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45E9C5A112187668E9FAE41 /* Pods-LoanSupermarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanSupermarket.debug.xcconfig"; path = "Target Support Files/Pods-LoanSupermarket/Pods-LoanSupermarket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -256,6 +283,8 @@
 				185C4977223F5FC00016F4DE /* RequestService.m */,
 				185C4979223F5FC00016F4DE /* SQCustomButton.h */,
 				185C4976223F5FC00016F4DE /* SQCustomButton.m */,
+				7565A87422407460005653EB /* SQButton.h */,
+				7565A87522407460005653EB /* SQButton.m */,
 				185C497D223F5FC10016F4DE /* ZCControl.h */,
 				185C497B223F5FC10016F4DE /* ZCControl.m */,
 				185C49B0223F71960016F4DE /* Manager.h */,
@@ -267,8 +296,10 @@
 		185C4966223F5F7A0016F4DE /* mine */ = {
 			isa = PBXGroup;
 			children = (
-				185C4974223F5FBA0016F4DE /* MineViewController.h */,
-				185C4973223F5FB90016F4DE /* MineViewController.m */,
+				7565A8852240BBF8005653EB /* MineBaseInfoViewController.h */,
+				7565A8862240BBF8005653EB /* MineBaseInfoViewController.m */,
+				7565A8882240BC35005653EB /* MineViewController.h */,
+				7565A8892240BC36005653EB /* MineViewController.m */,
 			);
 			path = mine;
 			sourceTree = "<group>";
@@ -278,6 +309,9 @@
 			children = (
 				185C4971223F5FB40016F4DE /* CreditCardViewController.h */,
 				185C4970223F5FB40016F4DE /* CreditCardViewController.m */,
+				7565A8952240DD32005653EB /* CreditCardTableViewCell.h */,
+				7565A8962240DD32005653EB /* CreditCardTableViewCell.m */,
+				7565A8972240DD32005653EB /* CreditCardTableViewCell.xib */,
 			);
 			path = creditcard;
 			sourceTree = "<group>";
@@ -285,8 +319,12 @@
 		185C4968223F5F8C0016F4DE /* loan */ = {
 			isa = PBXGroup;
 			children = (
+				7565A878224089DB005653EB /* menu */,
 				185C496D223F5FAF0016F4DE /* LoanViewController.h */,
 				185C496E223F5FAF0016F4DE /* LoanViewController.m */,
+				7565A8902240D389005653EB /* LoanTableViewCell.h */,
+				7565A8912240D38A005653EB /* LoanTableViewCell.m */,
+				7565A8922240D38A005653EB /* LoanTableViewCell.xib */,
 			);
 			path = loan;
 			sourceTree = "<group>";
@@ -298,8 +336,9 @@
 				185C49A7223F63BB0016F4DE /* InfoBaseViewController.m */,
 				185C49AA223F64250016F4DE /* HomePageViewController.h */,
 				185C49AB223F64250016F4DE /* HomePageViewController.m */,
-				185C49AD223F6A4C0016F4DE /* HomeViewController.h */,
-				185C49AE223F6A4C0016F4DE /* HomeViewController.m */,
+				7565A88B2240CF35005653EB /* HomePageTableViewCell.h */,
+				7565A88C2240CF35005653EB /* HomePageTableViewCell.m */,
+				7565A88D2240CF35005653EB /* HomePageTableViewCell.xib */,
 			);
 			path = homepage;
 			sourceTree = "<group>";
@@ -336,6 +375,19 @@
 				9DB64D11D398BFA8DA821178 /* libPods-LoanSupermarket.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7565A878224089DB005653EB /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				7565A880224089F2005653EB /* NSArray+ZMAdd.h */,
+				7565A87F224089F2005653EB /* NSArray+ZMAdd.m */,
+				7565A87B224089E9005653EB /* MoreDropDownMenu.h */,
+				7565A87A224089E8005653EB /* MoreDropDownMenu.m */,
+				7565A879224089E8005653EB /* MoreDropDownMenuRowCell.h */,
+				7565A87C224089E9005653EB /* MoreDropDownMenuRowCell.m */,
+			);
+			path = menu;
 			sourceTree = "<group>";
 		};
 		A3739D5040CA3954981F8DC0 /* Pods */ = {
@@ -452,9 +504,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7565A8942240D38A005653EB /* LoanTableViewCell.xib in Resources */,
 				185C493B223F48480016F4DE /* LaunchScreen.storyboard in Resources */,
 				185C4938223F48480016F4DE /* Assets.xcassets in Resources */,
 				185C4936223F47E70016F4DE /* Main.storyboard in Resources */,
+				7565A8992240DD32005653EB /* CreditCardTableViewCell.xib in Resources */,
+				7565A88F2240CF35005653EB /* HomePageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,25 +586,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				185C496F223F5FAF0016F4DE /* LoanViewController.m in Sources */,
-				185C4975223F5FBA0016F4DE /* MineViewController.m in Sources */,
 				185C4988223F5FC70016F4DE /* MainBaseViewController.m in Sources */,
 				185C49A9223F63BB0016F4DE /* InfoBaseViewController.m in Sources */,
 				185C499A223F63A80016F4DE /* WMPageController.m in Sources */,
 				185C4972223F5FB40016F4DE /* CreditCardViewController.m in Sources */,
 				185C49A3223F63AF0016F4DE /* WMMenuItem.m in Sources */,
+				7565A87622407460005653EB /* SQButton.m in Sources */,
 				185C49B2223F71960016F4DE /* Manager.m in Sources */,
+				7565A88A2240BC36005653EB /* MineViewController.m in Sources */,
+				7565A8932240D38A005653EB /* LoanTableViewCell.m in Sources */,
 				185C497F223F5FC10016F4DE /* RequestService.m in Sources */,
 				185C49A4223F63AF0016F4DE /* WMMenuView.m in Sources */,
-				185C49AF223F6A4C0016F4DE /* HomeViewController.m in Sources */,
 				185C4933223F47E70016F4DE /* ViewController.m in Sources */,
 				185C4990223F5FD00016F4DE /* RegisterViewController.m in Sources */,
 				185C4981223F5FC10016F4DE /* ZCControl.m in Sources */,
 				185C49A6223F63AF0016F4DE /* WMProgressView.m in Sources */,
+				7565A87D224089E9005653EB /* MoreDropDownMenu.m in Sources */,
+				7565A881224089F2005653EB /* NSArray+ZMAdd.m in Sources */,
 				185C49AC223F64250016F4DE /* HomePageViewController.m in Sources */,
 				185C4989223F5FC70016F4DE /* MainNavigationViewController.m in Sources */,
 				185C4980223F5FC10016F4DE /* CLlocationManage.m in Sources */,
+				7565A8982240DD32005653EB /* CreditCardTableViewCell.m in Sources */,
 				185C493E223F48490016F4DE /* main.m in Sources */,
 				185C498A223F5FC70016F4DE /* MainTabbarViewController.m in Sources */,
+				7565A8872240BBF8005653EB /* MineBaseInfoViewController.m in Sources */,
+				7565A87E224089E9005653EB /* MoreDropDownMenuRowCell.m in Sources */,
+				7565A88E2240CF35005653EB /* HomePageTableViewCell.m in Sources */,
 				185C497E223F5FC10016F4DE /* SQCustomButton.m in Sources */,
 				185C4930223F47E70016F4DE /* AppDelegate.m in Sources */,
 				185C498F223F5FD00016F4DE /* LoginViewController.m in Sources */,
@@ -727,7 +789,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P8TD9N5X56;
+				DEVELOPMENT_TEAM = M2LKH292H6;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LoanSupermarket/PrefixHeader.pch";
 				INFOPLIST_FILE = LoanSupermarket/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -748,7 +810,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P8TD9N5X56;
+				DEVELOPMENT_TEAM = M2LKH292H6;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LoanSupermarket/PrefixHeader.pch";
 				INFOPLIST_FILE = LoanSupermarket/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

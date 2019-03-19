@@ -1,16 +1,16 @@
 //
 //  MineViewController.h
-//  jie
+//  LoanSupermarket
 //
-//  Created by apple on 2019/3/18.
-//  Copyright © 2019年 魏魏莹. All rights reserved.
+//  Created by 吕书涛 on 2019/3/19.
+//  Copyright © 2019 apple. All rights reserved.
 //
 
-#import "MainBaseViewController.h"
+#import "MineBaseInfoViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MineViewController : MainBaseViewController
+@interface MineViewController : MineBaseInfoViewController
 
 @end
 

@@ -11,7 +11,7 @@
 #import "CreditCardViewController.h"
 #import "LoanViewController.h"
 #import "HomePageViewController.h"
-#import "HomeViewController.h"
+
 
 @interface MainTabbarViewController ()
 
@@ -32,10 +32,10 @@
         aaa.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_icon_1_pressed"];
         
         LoanViewController *zeroVc = [[LoanViewController alloc]init];
-        MainNavigationViewController *ccc = [[MainNavigationViewController alloc]initWithRootViewController:zeroVc];
-        ccc.tabBarItem.image = [UIImage imageNamed:@"ic_icon_2_normal"];
+        //MainNavigationViewController *ccc = [[MainNavigationViewController alloc]initWithRootViewController:zeroVc];
+        zeroVc.tabBarItem.image = [UIImage imageNamed:@"ic_icon_2_normal"];
         zeroVc.title = @"贷款大全";
-        ccc.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_icon_2_pressed"];
+        zeroVc.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_icon_2_pressed"];
         
         CreditCardViewController *credVc = [[CreditCardViewController alloc]init];
         MainNavigationViewController *ddd = [[MainNavigationViewController alloc]initWithRootViewController:credVc];
@@ -48,11 +48,11 @@
         MineViewController *twpVc = [[MineViewController alloc]init];
         MainNavigationViewController *bbb = [[MainNavigationViewController alloc]initWithRootViewController:twpVc];
         bbb.tabBarItem.image = [UIImage imageNamed:@"ic_icon_5_normal"];
-        twpVc.title = @"我的";
+        bbb.tabBarItem.title = @"我的";
         bbb.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_icon_5_pressed"];
         
         self.tabBar.tintColor = RGBACOLOR(41, 147, 252, 1);
-        self.viewControllers = @[aaa,ccc,ddd,bbb];
+        self.viewControllers = @[aaa,zeroVc,ddd,bbb];
     }
     return self;
 }

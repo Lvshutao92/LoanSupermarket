@@ -50,7 +50,7 @@
         self.localButton.frame = CGRectMake(0, kStatusBarHeight, 80, 44);
         self.localButton.titleLabel.font = FONT(14);
         [self.localButton setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
-        [self.localButton setTitle:@"555" forState:UIControlStateNormal];
+        [self.localButton setTitle:@"定位失败" forState:UIControlStateNormal];
     }
     return _localButton;
 }

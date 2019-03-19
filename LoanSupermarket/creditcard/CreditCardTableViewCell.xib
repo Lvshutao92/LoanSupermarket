@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="102" id="KGk-i7-Jjw" customClass="CreditCardTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="101.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xyklogo" translatesAutoresizingMaskIntoConstraints="NO" id="ywi-7C-q3n">
+                        <rect key="frame" x="10" y="10" width="150" height="81.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="Wlx-mf-Aci"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="光大银行 | 浪漫樱花主题卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKQ-o1-dIA">
+                        <rect key="frame" x="170" y="10" width="140" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Ugx-AW-v94"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="免年费，尊享卡组织白金礼遇" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xh-Rb-Prl">
+                        <rect key="frame" x="170" y="71.5" width="140" height="20"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="0.29869058100000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="jV6-PB-KYd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.1510696269" blue="0.27616305140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="粉嫩樱花，承萌“光”爱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lI2-El-7ra">
+                        <rect key="frame" x="170" y="40" width="140" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AKQ-o1-dIA" firstAttribute="leading" secondItem="ywi-7C-q3n" secondAttribute="trailing" constant="10" id="0wk-vD-c23"/>
+                    <constraint firstItem="lI2-El-7ra" firstAttribute="leading" secondItem="ywi-7C-q3n" secondAttribute="trailing" constant="10" id="1JM-wm-EdG"/>
+                    <constraint firstItem="ywi-7C-q3n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5L9-YI-WBw"/>
+                    <constraint firstItem="7xh-Rb-Prl" firstAttribute="leading" secondItem="ywi-7C-q3n" secondAttribute="trailing" constant="10" id="7OB-Bv-FJl"/>
+                    <constraint firstItem="7xh-Rb-Prl" firstAttribute="top" secondItem="lI2-El-7ra" secondAttribute="bottom" constant="10" id="EFw-SJ-kcD"/>
+                    <constraint firstAttribute="bottom" secondItem="7xh-Rb-Prl" secondAttribute="bottom" constant="10" id="Edo-ep-0hF"/>
+                    <constraint firstItem="ywi-7C-q3n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="FWe-pB-yfS"/>
+                    <constraint firstItem="lI2-El-7ra" firstAttribute="top" secondItem="AKQ-o1-dIA" secondAttribute="bottom" constant="10" id="H5n-bB-wzy"/>
+                    <constraint firstAttribute="trailing" secondItem="lI2-El-7ra" secondAttribute="trailing" constant="10" id="jR2-Bx-rOR"/>
+                    <constraint firstAttribute="bottom" secondItem="ywi-7C-q3n" secondAttribute="bottom" constant="10" id="jlb-di-13u"/>
+                    <constraint firstItem="AKQ-o1-dIA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="rI5-rY-hDJ"/>
+                    <constraint firstAttribute="trailing" secondItem="AKQ-o1-dIA" secondAttribute="trailing" constant="10" id="sd8-zh-yKm"/>
+                    <constraint firstAttribute="trailing" secondItem="7xh-Rb-Prl" secondAttribute="trailing" constant="10" id="ui2-fL-m8w"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="img" destination="ywi-7C-q3n" id="W2Z-eh-P1A"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="111.54422788605699"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="xyklogo" width="478" height="293"/>
+    </resources>
+</document>
