@@ -19,7 +19,7 @@
 
 #define WC_SCALE (YScreenH/667.0)
 
-
+#define COLOR(a,b) [UIColor colorWithWhite:a alpha:b]
 //----------------------------------------------BASE--------------------------
 
 

@@ -9,12 +9,18 @@
 #import "HomePageViewController.h"
 #import "WMPageController.h"
 
-@interface HomePageViewController ()<WMPageControllerDelegate,UITableViewDataSource,UITableViewDelegate>
+@interface HomePageViewController ()<WMPageControllerDelegate,UITableViewDataSource,UITableViewDelegate,SDCycleScrollViewDelegate>
 {
     CGFloat header_Height;
+    
 }
 @property (nonatomic,strong)UITableView *mainTableView;
 @property(nonatomic,strong) UIScrollView  *parentScrollView;
+
+@property(nonatomic,strong) SDCycleScrollView  *cycScrollview;
+@property(nonatomic,strong) UIView  *headerView;
+
+
 
 @end
 
@@ -33,6 +39,9 @@
     
     [self.localButton addTarget:self action:@selector(clickbbb) forControlEvents:UIControlEventTouchUpInside];
 }
+
+
+
 - (void)clickbbb{
     [self.localButton setTitle:@"无锡市" forState:UIControlStateNormal];
 }
@@ -68,11 +77,31 @@
         _mainTableView.estimatedSectionHeaderHeight = 0;
         _mainTableView.estimatedSectionFooterHeight = 0;
         _mainTableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
-        _mainTableView.tableHeaderView = [ZCControl viewWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 200) viewColor:UIColor.redColor];
+        _mainTableView.tableHeaderView = self.headerView;
     }
     return _mainTableView;
 }
 
+- (UIView *)headerView{
+    if (!_headerView) {
+        _headerView = [ZCControl viewWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 400) viewColor:COLOR(.8, .3)];
+        [_headerView addSubview:self.cycScrollview];
+    }
+    return _headerView;
+}
 
+- (SDCycleScrollView *)cycScrollview{
+    if (!_cycScrollview) {
+        _cycScrollview = [[SDCycleScrollView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 200)];
+        _cycScrollview.delegate = self;
+        _cycScrollview.imageURLStringsGroup = @[@"a",@"b",@"c"];
+    }
+    return _cycScrollview;
+}
+
+/** 点击图片回调 */
+- (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index{
+    
+}
 
 @end
