@@ -1,1 +1,0 @@
-../../../XHWebImageAutoSize/XHWebImageAutoSize/NSString+XHWebImageAutoSize.h

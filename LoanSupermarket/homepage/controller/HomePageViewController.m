@@ -35,6 +35,16 @@
 
 @implementation HomePageViewController
 
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    if ([GlobleStting getpwd].length>0) {
+        self.localButton.hidden = NO;
+    }else{
+        self.localButton.hidden = YES;
+    }
+}
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGFloat offset = scrollView.contentOffset.y;
     self.navBarView.alpha = (offset+kNavBarHAbove7)/kNavBarHAbove7;
@@ -55,7 +65,9 @@
 }
 #pragma mark - 定位事件
 - (void)clickbbb{
-    [self.localButton setTitle:@"无锡市" forState:UIControlStateNormal];
+    PositionViewController *vc = [[PositionViewController alloc]init];
+    vc.title = @"城市列表";
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
@@ -80,9 +92,19 @@
     
     [cell.btn setTitleColor:baseColor forState:UIControlStateNormal];
     LRViewBorderRadius(cell.btn, 5, 1, baseColor);
+    [cell.btn addTarget:self action:@selector(clickShenQing:) forControlEvents:UIControlEventTouchUpInside];
     return cell;
 }
-
+- (void)clickShenQing:(UIButton *)sender{
+    
+    if ([GlobleStting getpwd].length>0) {
+        
+    }else{
+        LoginViewController *vc = [[LoginViewController alloc]init];
+        vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        [self presentViewController:vc animated:YES completion:nil];
+    }
+}
 
 - (UITableView *)mainTableView{
     if (!_mainTableView) {
@@ -188,7 +210,13 @@
     return _shenqingBtn;
 }
 - (void)clickShenQing{
-    
+    if ([GlobleStting getpwd].length>0) {
+        
+    }else{
+        LoginViewController *vc = [[LoginViewController alloc]init];
+        vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        [self presentViewController:vc animated:YES completion:nil];
+    }
 }
 - (void)setupTuijianSet{
     UILabel *lab = [ZCControl createLabelWithFrame:CGRectMake(80, 40, SCREEN_WIDTH-160, 20) Font:12 Text:@"🌟无需下载APP|额度高、放款快、利率低" textColor:UIColor.lightGrayColor NSTextAlignment:NSTextAlignmentCenter];
@@ -216,7 +244,7 @@
     UILabel *titlelab = [ZCControl createLabelWithFrame:CGRectMake(10, 0, 100, 40) Font:16 Text:@"今日爆款" textColor:UIColor.blackColor NSTextAlignment:NSTextAlignmentLeft];
     [bgv addSubview:titlelab];
     
-    SQCustomButton *btn = [[SQCustomButton alloc]initWithFrame:CGRectMake(SCREEN_WIDTH-65, 0, 55, 40) type:SQCustomButtonRightImageType imageSize:CGSizeMake(20, 20) midmargin:5];
+    SQCustomButton *btn = [[SQCustomButton alloc]initWithFrame:CGRectMake(SCREEN_WIDTH-65, 0, 55, 40) type:SQCustomButtonRightImageType imageSize:CGSizeMake(15, 15) midmargin:1];
     btn.titleLabel.text = @"更多";
     btn.imageView.image = [UIImage imageNamed:@"rightjt"];
     btn.titleLabel.textColor = RGB(191, 191, 191);
@@ -241,7 +269,7 @@
 - (void)footerLookMore{
     UIView *line = [ZCControl viewWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 1) viewColor:COLOR(.8, .3)];
     [self.footerView addSubview:line];
-    SQCustomButton *btn = [[SQCustomButton alloc]initWithFrame:CGRectMake(0, 1, SCREEN_WIDTH, 40) type:SQCustomButtonRightImageType imageSize:CGSizeMake(20, 20) midmargin:5];
+    SQCustomButton *btn = [[SQCustomButton alloc]initWithFrame:CGRectMake(0, 1, SCREEN_WIDTH, 40) type:SQCustomButtonRightImageType imageSize:CGSizeMake(15, 15) midmargin:1];
     btn.titleLabel.text = @"更多";
     btn.backgroundColor = UIColor.whiteColor;
     btn.imageView.image = [UIImage imageNamed:@"rightjt"];

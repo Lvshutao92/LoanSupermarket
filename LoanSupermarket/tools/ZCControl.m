@@ -197,7 +197,6 @@
     gradient.frame = img.bounds;
     gradient.colors = [NSArray arrayWithObjects:(id)[RGB(0, 103, 255) CGColor],(id)[RGB(68, 143, 254) CGColor], nil];
     [img.layer insertSublayer:gradient atIndex:0];
-    
     return img;
 }
 
@@ -205,10 +204,10 @@
 
 + (void)setJianBianSeGreay:(UIButton *)btn{
     CAGradientLayer *gradient = [CAGradientLayer layer];
-    gradient.startPoint = CGPointMake(0, 0.5);
-    gradient.endPoint = CGPointMake(1, 0.5);
+    gradient.startPoint = CGPointMake(0, 0);
+    gradient.endPoint = CGPointMake(1, 0);
     gradient.frame = btn.bounds;
-    gradient.colors = [NSArray arrayWithObjects:(id)[[UIColor lightGrayColor] CGColor],(id)[[UIColor lightGrayColor] CGColor], nil];
+    gradient.colors = [NSArray arrayWithObjects:(id)[RGB(30, 144, 255) CGColor],(id)[RGB(65, 105, 255) CGColor], nil];
     [btn.layer insertSublayer:gradient atIndex:0];
 }
 

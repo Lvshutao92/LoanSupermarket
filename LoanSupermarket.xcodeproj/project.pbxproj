@@ -46,6 +46,18 @@
 		7565A8942240D38A005653EB /* LoanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7565A8922240D38A005653EB /* LoanTableViewCell.xib */; };
 		7565A8982240DD32005653EB /* CreditCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A8962240DD32005653EB /* CreditCardTableViewCell.m */; };
 		7565A8992240DD32005653EB /* CreditCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7565A8972240DD32005653EB /* CreditCardTableViewCell.xib */; };
+		756A9C4E2242020D00D4A272 /* MobileLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A9C4D2242020D00D4A272 /* MobileLoginView.m */; };
+		756A9C542242198700D4A272 /* GlobleStting.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A9C532242198700D4A272 /* GlobleStting.m */; };
+		756A9C58224223B200D4A272 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A9C57224223B200D4A272 /* SetViewController.m */; };
+		75794BA92241C89300870AB5 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BA82241C89300870AB5 /* PositionViewController.m */; };
+		75794BAF2241C8D900870AB5 /* HomePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BAE2241C8D900870AB5 /* HomePageModel.m */; };
+		75794BB52241C91500870AB5 /* LoanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BB42241C91500870AB5 /* LoanModel.m */; };
+		75794BBB2241C96300870AB5 /* CreditCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BBA2241C96300870AB5 /* CreditCardModel.m */; };
+		75794BC12241C98D00870AB5 /* MineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BC02241C98D00870AB5 /* MineModel.m */; };
+		75794BC42241CC2C00870AB5 /* MyActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BC32241CC2C00870AB5 /* MyActivityView.m */; };
+		75794BC72241D04500870AB5 /* MyOrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BC62241D04500870AB5 /* MyOrderView.m */; };
+		75794BCA2241D5A900870AB5 /* QianDaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BC92241D5A900870AB5 /* QianDaoView.m */; };
+		75794BCD2241D6D200870AB5 /* ChangYongToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BCC2241D6D200870AB5 /* ChangYongToolsView.m */; };
 		C7AB1BDD769D761490F7396E /* libPods-LoanSupermarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB64D11D398BFA8DA821178 /* libPods-LoanSupermarket.a */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +158,30 @@
 		7565A8952240DD32005653EB /* CreditCardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditCardTableViewCell.h; sourceTree = "<group>"; };
 		7565A8962240DD32005653EB /* CreditCardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCardTableViewCell.m; sourceTree = "<group>"; };
 		7565A8972240DD32005653EB /* CreditCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditCardTableViewCell.xib; sourceTree = "<group>"; };
+		756A9C4C2242020D00D4A272 /* MobileLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileLoginView.h; sourceTree = "<group>"; };
+		756A9C4D2242020D00D4A272 /* MobileLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileLoginView.m; sourceTree = "<group>"; };
+		756A9C522242198700D4A272 /* GlobleStting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobleStting.h; sourceTree = "<group>"; };
+		756A9C532242198700D4A272 /* GlobleStting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobleStting.m; sourceTree = "<group>"; };
+		756A9C56224223B200D4A272 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		756A9C57224223B200D4A272 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		75794BA72241C89300870AB5 /* PositionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PositionViewController.h; sourceTree = "<group>"; };
+		75794BA82241C89300870AB5 /* PositionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PositionViewController.m; sourceTree = "<group>"; };
+		75794BAD2241C8D900870AB5 /* HomePageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageModel.h; sourceTree = "<group>"; };
+		75794BAE2241C8D900870AB5 /* HomePageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageModel.m; sourceTree = "<group>"; };
+		75794BB32241C91500870AB5 /* LoanModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoanModel.h; sourceTree = "<group>"; };
+		75794BB42241C91500870AB5 /* LoanModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanModel.m; sourceTree = "<group>"; };
+		75794BB92241C96300870AB5 /* CreditCardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditCardModel.h; sourceTree = "<group>"; };
+		75794BBA2241C96300870AB5 /* CreditCardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCardModel.m; sourceTree = "<group>"; };
+		75794BBF2241C98D00870AB5 /* MineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineModel.h; sourceTree = "<group>"; };
+		75794BC02241C98D00870AB5 /* MineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineModel.m; sourceTree = "<group>"; };
+		75794BC22241CC2C00870AB5 /* MyActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyActivityView.h; sourceTree = "<group>"; };
+		75794BC32241CC2C00870AB5 /* MyActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyActivityView.m; sourceTree = "<group>"; };
+		75794BC52241D04500870AB5 /* MyOrderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOrderView.h; sourceTree = "<group>"; };
+		75794BC62241D04500870AB5 /* MyOrderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOrderView.m; sourceTree = "<group>"; };
+		75794BC82241D5A900870AB5 /* QianDaoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QianDaoView.h; sourceTree = "<group>"; };
+		75794BC92241D5A900870AB5 /* QianDaoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QianDaoView.m; sourceTree = "<group>"; };
+		75794BCB2241D6D200870AB5 /* ChangYongToolsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangYongToolsView.h; sourceTree = "<group>"; };
+		75794BCC2241D6D200870AB5 /* ChangYongToolsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangYongToolsView.m; sourceTree = "<group>"; };
 		9DB64D11D398BFA8DA821178 /* libPods-LoanSupermarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoanSupermarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45E9C5A112187668E9FAE41 /* Pods-LoanSupermarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanSupermarket.debug.xcconfig"; path = "Target Support Files/Pods-LoanSupermarket/Pods-LoanSupermarket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -245,6 +281,7 @@
 		185C4962223F5F620016F4DE /* user */ = {
 			isa = PBXGroup;
 			children = (
+				756A9C59224234F100D4A272 /* view */,
 				185C498C223F5FD00016F4DE /* LoginViewController.h */,
 				185C498D223F5FD00016F4DE /* LoginViewController.m */,
 				185C498B223F5FD00016F4DE /* RegisterViewController.h */,
@@ -289,6 +326,8 @@
 				185C497B223F5FC10016F4DE /* ZCControl.m */,
 				185C49B0223F71960016F4DE /* Manager.h */,
 				185C49B1223F71960016F4DE /* Manager.m */,
+				756A9C522242198700D4A272 /* GlobleStting.h */,
+				756A9C532242198700D4A272 /* GlobleStting.m */,
 			);
 			path = tools;
 			sourceTree = "<group>";
@@ -296,10 +335,9 @@
 		185C4966223F5F7A0016F4DE /* mine */ = {
 			isa = PBXGroup;
 			children = (
-				7565A8852240BBF8005653EB /* MineBaseInfoViewController.h */,
-				7565A8862240BBF8005653EB /* MineBaseInfoViewController.m */,
-				7565A8882240BC35005653EB /* MineViewController.h */,
-				7565A8892240BC36005653EB /* MineViewController.m */,
+				75794BBE2241C97600870AB5 /* model */,
+				75794BBD2241C97000870AB5 /* view */,
+				75794BBC2241C96B00870AB5 /* controller */,
 			);
 			path = mine;
 			sourceTree = "<group>";
@@ -307,11 +345,9 @@
 		185C4967223F5F800016F4DE /* creditcard */ = {
 			isa = PBXGroup;
 			children = (
-				185C4971223F5FB40016F4DE /* CreditCardViewController.h */,
-				185C4970223F5FB40016F4DE /* CreditCardViewController.m */,
-				7565A8952240DD32005653EB /* CreditCardTableViewCell.h */,
-				7565A8962240DD32005653EB /* CreditCardTableViewCell.m */,
-				7565A8972240DD32005653EB /* CreditCardTableViewCell.xib */,
+				75794BB82241C92800870AB5 /* model */,
+				75794BB72241C92300870AB5 /* view */,
+				75794BB62241C91D00870AB5 /* controller */,
 			);
 			path = creditcard;
 			sourceTree = "<group>";
@@ -319,12 +355,9 @@
 		185C4968223F5F8C0016F4DE /* loan */ = {
 			isa = PBXGroup;
 			children = (
-				7565A878224089DB005653EB /* menu */,
-				185C496D223F5FAF0016F4DE /* LoanViewController.h */,
-				185C496E223F5FAF0016F4DE /* LoanViewController.m */,
-				7565A8902240D389005653EB /* LoanTableViewCell.h */,
-				7565A8912240D38A005653EB /* LoanTableViewCell.m */,
-				7565A8922240D38A005653EB /* LoanTableViewCell.xib */,
+				75794BB22241C8EE00870AB5 /* model */,
+				75794BB12241C8E900870AB5 /* view */,
+				75794BB02241C8E200870AB5 /* controller */,
 			);
 			path = loan;
 			sourceTree = "<group>";
@@ -332,13 +365,9 @@
 		185C4969223F5F940016F4DE /* homepage */ = {
 			isa = PBXGroup;
 			children = (
-				185C49A8223F63BB0016F4DE /* InfoBaseViewController.h */,
-				185C49A7223F63BB0016F4DE /* InfoBaseViewController.m */,
-				185C49AA223F64250016F4DE /* HomePageViewController.h */,
-				185C49AB223F64250016F4DE /* HomePageViewController.m */,
-				7565A88B2240CF35005653EB /* HomePageTableViewCell.h */,
-				7565A88C2240CF35005653EB /* HomePageTableViewCell.m */,
-				7565A88D2240CF35005653EB /* HomePageTableViewCell.xib */,
+				75794BAC2241C8B100870AB5 /* model */,
+				75794BAB2241C8AC00870AB5 /* view */,
+				75794BAA2241C8A200870AB5 /* controller */,
 			);
 			path = homepage;
 			sourceTree = "<group>";
@@ -388,6 +417,157 @@
 				7565A87C224089E9005653EB /* MoreDropDownMenuRowCell.m */,
 			);
 			path = menu;
+			sourceTree = "<group>";
+		};
+		756A9C55224223A100D4A272 /* set */ = {
+			isa = PBXGroup;
+			children = (
+				756A9C56224223B200D4A272 /* SetViewController.h */,
+				756A9C57224223B200D4A272 /* SetViewController.m */,
+			);
+			path = set;
+			sourceTree = "<group>";
+		};
+		756A9C59224234F100D4A272 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				756A9C4C2242020D00D4A272 /* MobileLoginView.h */,
+				756A9C4D2242020D00D4A272 /* MobileLoginView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		75794BA62241C82B00870AB5 /* position */ = {
+			isa = PBXGroup;
+			children = (
+				75794BA72241C89300870AB5 /* PositionViewController.h */,
+				75794BA82241C89300870AB5 /* PositionViewController.m */,
+			);
+			path = position;
+			sourceTree = "<group>";
+		};
+		75794BAA2241C8A200870AB5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				75794BA62241C82B00870AB5 /* position */,
+				185C49A8223F63BB0016F4DE /* InfoBaseViewController.h */,
+				185C49A7223F63BB0016F4DE /* InfoBaseViewController.m */,
+				185C49AA223F64250016F4DE /* HomePageViewController.h */,
+				185C49AB223F64250016F4DE /* HomePageViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		75794BAB2241C8AC00870AB5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7565A88B2240CF35005653EB /* HomePageTableViewCell.h */,
+				7565A88C2240CF35005653EB /* HomePageTableViewCell.m */,
+				7565A88D2240CF35005653EB /* HomePageTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		75794BAC2241C8B100870AB5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				75794BAD2241C8D900870AB5 /* HomePageModel.h */,
+				75794BAE2241C8D900870AB5 /* HomePageModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		75794BB02241C8E200870AB5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7565A878224089DB005653EB /* menu */,
+				185C496D223F5FAF0016F4DE /* LoanViewController.h */,
+				185C496E223F5FAF0016F4DE /* LoanViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		75794BB12241C8E900870AB5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7565A8902240D389005653EB /* LoanTableViewCell.h */,
+				7565A8912240D38A005653EB /* LoanTableViewCell.m */,
+				7565A8922240D38A005653EB /* LoanTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		75794BB22241C8EE00870AB5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				75794BB32241C91500870AB5 /* LoanModel.h */,
+				75794BB42241C91500870AB5 /* LoanModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		75794BB62241C91D00870AB5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				185C4971223F5FB40016F4DE /* CreditCardViewController.h */,
+				185C4970223F5FB40016F4DE /* CreditCardViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		75794BB72241C92300870AB5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7565A8952240DD32005653EB /* CreditCardTableViewCell.h */,
+				7565A8962240DD32005653EB /* CreditCardTableViewCell.m */,
+				7565A8972240DD32005653EB /* CreditCardTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		75794BB82241C92800870AB5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				75794BB92241C96300870AB5 /* CreditCardModel.h */,
+				75794BBA2241C96300870AB5 /* CreditCardModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		75794BBC2241C96B00870AB5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				756A9C55224223A100D4A272 /* set */,
+				7565A8852240BBF8005653EB /* MineBaseInfoViewController.h */,
+				7565A8862240BBF8005653EB /* MineBaseInfoViewController.m */,
+				7565A8882240BC35005653EB /* MineViewController.h */,
+				7565A8892240BC36005653EB /* MineViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		75794BBD2241C97000870AB5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				75794BC22241CC2C00870AB5 /* MyActivityView.h */,
+				75794BC32241CC2C00870AB5 /* MyActivityView.m */,
+				75794BC52241D04500870AB5 /* MyOrderView.h */,
+				75794BC62241D04500870AB5 /* MyOrderView.m */,
+				75794BC82241D5A900870AB5 /* QianDaoView.h */,
+				75794BC92241D5A900870AB5 /* QianDaoView.m */,
+				75794BCB2241D6D200870AB5 /* ChangYongToolsView.h */,
+				75794BCC2241D6D200870AB5 /* ChangYongToolsView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		75794BBE2241C97600870AB5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				75794BBF2241C98D00870AB5 /* MineModel.h */,
+				75794BC02241C98D00870AB5 /* MineModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		A3739D5040CA3954981F8DC0 /* Pods */ = {
@@ -586,20 +766,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				185C496F223F5FAF0016F4DE /* LoanViewController.m in Sources */,
+				75794BB52241C91500870AB5 /* LoanModel.m in Sources */,
+				75794BCA2241D5A900870AB5 /* QianDaoView.m in Sources */,
+				75794BAF2241C8D900870AB5 /* HomePageModel.m in Sources */,
 				185C4988223F5FC70016F4DE /* MainBaseViewController.m in Sources */,
+				75794BC12241C98D00870AB5 /* MineModel.m in Sources */,
 				185C49A9223F63BB0016F4DE /* InfoBaseViewController.m in Sources */,
+				756A9C542242198700D4A272 /* GlobleStting.m in Sources */,
 				185C499A223F63A80016F4DE /* WMPageController.m in Sources */,
 				185C4972223F5FB40016F4DE /* CreditCardViewController.m in Sources */,
 				185C49A3223F63AF0016F4DE /* WMMenuItem.m in Sources */,
 				7565A87622407460005653EB /* SQButton.m in Sources */,
+				75794BA92241C89300870AB5 /* PositionViewController.m in Sources */,
 				185C49B2223F71960016F4DE /* Manager.m in Sources */,
 				7565A88A2240BC36005653EB /* MineViewController.m in Sources */,
 				7565A8932240D38A005653EB /* LoanTableViewCell.m in Sources */,
 				185C497F223F5FC10016F4DE /* RequestService.m in Sources */,
 				185C49A4223F63AF0016F4DE /* WMMenuView.m in Sources */,
+				75794BCD2241D6D200870AB5 /* ChangYongToolsView.m in Sources */,
 				185C4933223F47E70016F4DE /* ViewController.m in Sources */,
+				75794BBB2241C96300870AB5 /* CreditCardModel.m in Sources */,
 				185C4990223F5FD00016F4DE /* RegisterViewController.m in Sources */,
+				75794BC42241CC2C00870AB5 /* MyActivityView.m in Sources */,
 				185C4981223F5FC10016F4DE /* ZCControl.m in Sources */,
+				756A9C4E2242020D00D4A272 /* MobileLoginView.m in Sources */,
 				185C49A6223F63AF0016F4DE /* WMProgressView.m in Sources */,
 				7565A87D224089E9005653EB /* MoreDropDownMenu.m in Sources */,
 				7565A881224089F2005653EB /* NSArray+ZMAdd.m in Sources */,
@@ -608,12 +798,14 @@
 				185C4980223F5FC10016F4DE /* CLlocationManage.m in Sources */,
 				7565A8982240DD32005653EB /* CreditCardTableViewCell.m in Sources */,
 				185C493E223F48490016F4DE /* main.m in Sources */,
+				75794BC72241D04500870AB5 /* MyOrderView.m in Sources */,
 				185C498A223F5FC70016F4DE /* MainTabbarViewController.m in Sources */,
 				7565A8872240BBF8005653EB /* MineBaseInfoViewController.m in Sources */,
 				7565A87E224089E9005653EB /* MoreDropDownMenuRowCell.m in Sources */,
 				7565A88E2240CF35005653EB /* HomePageTableViewCell.m in Sources */,
 				185C497E223F5FC10016F4DE /* SQCustomButton.m in Sources */,
 				185C4930223F47E70016F4DE /* AppDelegate.m in Sources */,
+				756A9C58224223B200D4A272 /* SetViewController.m in Sources */,
 				185C498F223F5FD00016F4DE /* LoginViewController.m in Sources */,
 				185C49A5223F63AF0016F4DE /* WMScrollView.m in Sources */,
 			);
@@ -788,6 +980,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LKH292H6;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LoanSupermarket/PrefixHeader.pch";
@@ -799,6 +992,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = apple.LoanSupermarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -809,6 +1003,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2LKH292H6;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LoanSupermarket/PrefixHeader.pch";
@@ -820,6 +1015,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = apple.LoanSupermarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

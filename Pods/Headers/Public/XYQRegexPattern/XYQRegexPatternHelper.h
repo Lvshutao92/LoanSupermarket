@@ -1,1 +1,0 @@
-../../../XYQRegexPattern/XYQRegexPattern/XYQRegexPatternHelper.h

@@ -44,6 +44,7 @@
 #import "CLlocationManage.h"
 #import "Manager.h"
 #import "SQButton.h"
+#import "GlobleStting.h"
 
 
 //判断 iOS 8 或更高的系统版本
