@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - IQKeyboardManager (6.2.0)
   - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
@@ -29,6 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - FMDB
   - IQKeyboardManager
   - Masonry
   - MJExtension
@@ -42,6 +46,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - FMDB
     - IQKeyboardManager
     - Masonry
     - MJExtension
@@ -54,6 +59,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
@@ -64,6 +70,6 @@ SPEC CHECKSUMS:
   XHWebImageAutoSize: 8e5d7bf036f960885769dbe3410579024d3ac1a1
   XYQRegexPattern: 81ba39d00292762342ebb3494b313dbf58ea6bff
 
-PODFILE CHECKSUM: 67c4918fa442c0473de3271f0062ccaeccef4e69
+PODFILE CHECKSUM: ba9875d9b004e00653d7fce4af77413378cedaa6
 
 COCOAPODS: 1.6.1

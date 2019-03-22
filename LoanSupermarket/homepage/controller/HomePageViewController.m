@@ -9,9 +9,11 @@
 #import "HomePageViewController.h"
 #import "WMPageController.h"
 #import "HomePageTableViewCell.h"
-#import "PositionViewController.h"
 
-@interface HomePageViewController ()<WMPageControllerDelegate,UITableViewDataSource,UITableViewDelegate,SDCycleScrollViewDelegate>
+#import "JFCityViewController.h"
+
+
+@interface HomePageViewController ()<WMPageControllerDelegate,UITableViewDataSource,UITableViewDelegate,SDCycleScrollViewDelegate,JFCityViewControllerDelegate>
 {
     CGFloat header_Height;
     
@@ -28,6 +30,7 @@
 @property(nonatomic,strong) UILabel  *tuijianEDu;
 
 @property(nonatomic,strong) UIView  *footerView;
+
 
 
 
@@ -51,9 +54,14 @@
 }
 
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    
     [self.localButton addTarget:self action:@selector(clickbbb) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.mainTableView];
@@ -65,12 +73,16 @@
 }
 #pragma mark - 定位事件
 - (void)clickbbb{
-    PositionViewController *vc = [[PositionViewController alloc]init];
-    vc.title = @"城市列表";
-    [self.navigationController pushViewController:vc animated:YES];
+    JFCityViewController *cityViewController = [[JFCityViewController alloc] init];
+    cityViewController.delegate = self;
+    cityViewController.title = @"城市列表";
+    [self.navigationController pushViewController:cityViewController animated:YES];
 }
 
-
+#pragma mark - JFCityViewControllerDelegate
+- (void)cityName:(NSString *)name {
+    [self.localButton setTitle:name forState:UIControlStateNormal];
+}
 
 
 

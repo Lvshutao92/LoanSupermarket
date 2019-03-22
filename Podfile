@@ -10,5 +10,6 @@ target 'LoanSupermarket' do
  pod 'SVProgressHUD'
  pod 'SDWebImage'
  pod 'XYQRegexPattern'
+pod 'FMDB'
 
 end

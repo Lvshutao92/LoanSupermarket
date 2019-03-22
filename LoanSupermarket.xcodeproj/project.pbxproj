@@ -49,7 +49,16 @@
 		756A9C4E2242020D00D4A272 /* MobileLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A9C4D2242020D00D4A272 /* MobileLoginView.m */; };
 		756A9C542242198700D4A272 /* GlobleStting.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A9C532242198700D4A272 /* GlobleStting.m */; };
 		756A9C58224223B200D4A272 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A9C57224223B200D4A272 /* SetViewController.m */; };
-		75794BA92241C89300870AB5 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BA82241C89300870AB5 /* PositionViewController.m */; };
+		7573D7FE22434F3900C09500 /* JFCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7E822434F3200C09500 /* JFCityCollectionViewCell.m */; };
+		7573D7FF22434F3900C09500 /* shop_area.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7573D7EC22434F3300C09500 /* shop_area.sqlite */; };
+		7573D80022434F3900C09500 /* JFCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7EE22434F3400C09500 /* JFCityTableViewCell.m */; };
+		7573D80122434F3900C09500 /* JFSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7F222434F3500C09500 /* JFSearchView.m */; };
+		7573D80222434F3900C09500 /* JFLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7F422434F3500C09500 /* JFLocation.m */; };
+		7573D80322434F3900C09500 /* JFCityCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7F622434F3600C09500 /* JFCityCollectionFlowLayout.m */; };
+		7573D80422434F3900C09500 /* JFAreaDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7F922434F3600C09500 /* JFAreaDataManager.m */; };
+		7573D80522434F3900C09500 /* JFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7FA22434F3700C09500 /* JFButton.m */; };
+		7573D80622434F3900C09500 /* JFCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7FB22434F3800C09500 /* JFCityHeaderView.m */; };
+		7573D80722434F3900C09500 /* JFCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7573D7FD22434F3800C09500 /* JFCityViewController.m */; };
 		75794BAF2241C8D900870AB5 /* HomePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BAE2241C8D900870AB5 /* HomePageModel.m */; };
 		75794BB52241C91500870AB5 /* LoanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BB42241C91500870AB5 /* LoanModel.m */; };
 		75794BBB2241C96300870AB5 /* CreditCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75794BBA2241C96300870AB5 /* CreditCardModel.m */; };
@@ -164,8 +173,25 @@
 		756A9C532242198700D4A272 /* GlobleStting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobleStting.m; sourceTree = "<group>"; };
 		756A9C56224223B200D4A272 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
 		756A9C57224223B200D4A272 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
-		75794BA72241C89300870AB5 /* PositionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PositionViewController.h; sourceTree = "<group>"; };
-		75794BA82241C89300870AB5 /* PositionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PositionViewController.m; sourceTree = "<group>"; };
+		7573D7E822434F3200C09500 /* JFCityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityCollectionViewCell.m; sourceTree = "<group>"; };
+		7573D7E922434F3200C09500 /* JFCityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityCollectionViewCell.h; sourceTree = "<group>"; };
+		7573D7EA22434F3300C09500 /* JFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFButton.h; sourceTree = "<group>"; };
+		7573D7EC22434F3300C09500 /* shop_area.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = shop_area.sqlite; sourceTree = "<group>"; };
+		7573D7ED22434F3300C09500 /* JFCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityTableViewCell.h; sourceTree = "<group>"; };
+		7573D7EE22434F3400C09500 /* JFCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityTableViewCell.m; sourceTree = "<group>"; };
+		7573D7EF22434F3400C09500 /* JFCityCollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityCollectionFlowLayout.h; sourceTree = "<group>"; };
+		7573D7F022434F3400C09500 /* JFSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSearchView.h; sourceTree = "<group>"; };
+		7573D7F122434F3500C09500 /* JFCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityHeaderView.h; sourceTree = "<group>"; };
+		7573D7F222434F3500C09500 /* JFSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSearchView.m; sourceTree = "<group>"; };
+		7573D7F422434F3500C09500 /* JFLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLocation.m; sourceTree = "<group>"; };
+		7573D7F522434F3500C09500 /* JFLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLocation.h; sourceTree = "<group>"; };
+		7573D7F622434F3600C09500 /* JFCityCollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityCollectionFlowLayout.m; sourceTree = "<group>"; };
+		7573D7F822434F3600C09500 /* JFAreaDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAreaDataManager.h; sourceTree = "<group>"; };
+		7573D7F922434F3600C09500 /* JFAreaDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAreaDataManager.m; sourceTree = "<group>"; };
+		7573D7FA22434F3700C09500 /* JFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFButton.m; sourceTree = "<group>"; };
+		7573D7FB22434F3800C09500 /* JFCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityHeaderView.m; sourceTree = "<group>"; };
+		7573D7FC22434F3800C09500 /* JFCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityViewController.h; sourceTree = "<group>"; };
+		7573D7FD22434F3800C09500 /* JFCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityViewController.m; sourceTree = "<group>"; };
 		75794BAD2241C8D900870AB5 /* HomePageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageModel.h; sourceTree = "<group>"; };
 		75794BAE2241C8D900870AB5 /* HomePageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageModel.m; sourceTree = "<group>"; };
 		75794BB32241C91500870AB5 /* LoanModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoanModel.h; sourceTree = "<group>"; };
@@ -293,6 +319,7 @@
 		185C4963223F5F680016F4DE /* third */ = {
 			isa = PBXGroup;
 			children = (
+				7573D7E722434EC500C09500 /* locol */,
 				185C4995223F63960016F4DE /* WMPageController */,
 			);
 			path = third;
@@ -437,11 +464,59 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		7573D7E722434EC500C09500 /* locol */ = {
+			isa = PBXGroup;
+			children = (
+				7573D7F722434F3600C09500 /* AreaDataManager */,
+				7573D7EB22434F3300C09500 /* AreaDB */,
+				7573D7EA22434F3300C09500 /* JFButton.h */,
+				7573D7FA22434F3700C09500 /* JFButton.m */,
+				7573D7EF22434F3400C09500 /* JFCityCollectionFlowLayout.h */,
+				7573D7F622434F3600C09500 /* JFCityCollectionFlowLayout.m */,
+				7573D7E922434F3200C09500 /* JFCityCollectionViewCell.h */,
+				7573D7E822434F3200C09500 /* JFCityCollectionViewCell.m */,
+				7573D7F122434F3500C09500 /* JFCityHeaderView.h */,
+				7573D7FB22434F3800C09500 /* JFCityHeaderView.m */,
+				7573D7ED22434F3300C09500 /* JFCityTableViewCell.h */,
+				7573D7EE22434F3400C09500 /* JFCityTableViewCell.m */,
+				7573D7F022434F3400C09500 /* JFSearchView.h */,
+				7573D7F222434F3500C09500 /* JFSearchView.m */,
+				7573D7F322434F3500C09500 /* Location */,
+			);
+			path = locol;
+			sourceTree = "<group>";
+		};
+		7573D7EB22434F3300C09500 /* AreaDB */ = {
+			isa = PBXGroup;
+			children = (
+				7573D7EC22434F3300C09500 /* shop_area.sqlite */,
+			);
+			path = AreaDB;
+			sourceTree = "<group>";
+		};
+		7573D7F322434F3500C09500 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				7573D7F422434F3500C09500 /* JFLocation.m */,
+				7573D7F522434F3500C09500 /* JFLocation.h */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		7573D7F722434F3600C09500 /* AreaDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				7573D7F822434F3600C09500 /* JFAreaDataManager.h */,
+				7573D7F922434F3600C09500 /* JFAreaDataManager.m */,
+			);
+			path = AreaDataManager;
+			sourceTree = "<group>";
+		};
 		75794BA62241C82B00870AB5 /* position */ = {
 			isa = PBXGroup;
 			children = (
-				75794BA72241C89300870AB5 /* PositionViewController.h */,
-				75794BA82241C89300870AB5 /* PositionViewController.m */,
+				7573D7FC22434F3800C09500 /* JFCityViewController.h */,
+				7573D7FD22434F3800C09500 /* JFCityViewController.m */,
 			);
 			path = position;
 			sourceTree = "<group>";
@@ -689,6 +764,7 @@
 				185C4938223F48480016F4DE /* Assets.xcassets in Resources */,
 				185C4936223F47E70016F4DE /* Main.storyboard in Resources */,
 				7565A8992240DD32005653EB /* CreditCardTableViewCell.xib in Resources */,
+				7573D7FF22434F3900C09500 /* shop_area.sqlite in Resources */,
 				7565A88F2240CF35005653EB /* HomePageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -766,9 +842,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				185C496F223F5FAF0016F4DE /* LoanViewController.m in Sources */,
+				7573D7FE22434F3900C09500 /* JFCityCollectionViewCell.m in Sources */,
 				75794BB52241C91500870AB5 /* LoanModel.m in Sources */,
 				75794BCA2241D5A900870AB5 /* QianDaoView.m in Sources */,
 				75794BAF2241C8D900870AB5 /* HomePageModel.m in Sources */,
+				7573D80722434F3900C09500 /* JFCityViewController.m in Sources */,
+				7573D80522434F3900C09500 /* JFButton.m in Sources */,
 				185C4988223F5FC70016F4DE /* MainBaseViewController.m in Sources */,
 				75794BC12241C98D00870AB5 /* MineModel.m in Sources */,
 				185C49A9223F63BB0016F4DE /* InfoBaseViewController.m in Sources */,
@@ -777,9 +856,9 @@
 				185C4972223F5FB40016F4DE /* CreditCardViewController.m in Sources */,
 				185C49A3223F63AF0016F4DE /* WMMenuItem.m in Sources */,
 				7565A87622407460005653EB /* SQButton.m in Sources */,
-				75794BA92241C89300870AB5 /* PositionViewController.m in Sources */,
 				185C49B2223F71960016F4DE /* Manager.m in Sources */,
 				7565A88A2240BC36005653EB /* MineViewController.m in Sources */,
+				7573D80122434F3900C09500 /* JFSearchView.m in Sources */,
 				7565A8932240D38A005653EB /* LoanTableViewCell.m in Sources */,
 				185C497F223F5FC10016F4DE /* RequestService.m in Sources */,
 				185C49A4223F63AF0016F4DE /* WMMenuView.m in Sources */,
@@ -788,6 +867,7 @@
 				75794BBB2241C96300870AB5 /* CreditCardModel.m in Sources */,
 				185C4990223F5FD00016F4DE /* RegisterViewController.m in Sources */,
 				75794BC42241CC2C00870AB5 /* MyActivityView.m in Sources */,
+				7573D80222434F3900C09500 /* JFLocation.m in Sources */,
 				185C4981223F5FC10016F4DE /* ZCControl.m in Sources */,
 				756A9C4E2242020D00D4A272 /* MobileLoginView.m in Sources */,
 				185C49A6223F63AF0016F4DE /* WMProgressView.m in Sources */,
@@ -796,10 +876,14 @@
 				185C49AC223F64250016F4DE /* HomePageViewController.m in Sources */,
 				185C4989223F5FC70016F4DE /* MainNavigationViewController.m in Sources */,
 				185C4980223F5FC10016F4DE /* CLlocationManage.m in Sources */,
+				7573D80422434F3900C09500 /* JFAreaDataManager.m in Sources */,
+				7573D80322434F3900C09500 /* JFCityCollectionFlowLayout.m in Sources */,
 				7565A8982240DD32005653EB /* CreditCardTableViewCell.m in Sources */,
 				185C493E223F48490016F4DE /* main.m in Sources */,
 				75794BC72241D04500870AB5 /* MyOrderView.m in Sources */,
+				7573D80622434F3900C09500 /* JFCityHeaderView.m in Sources */,
 				185C498A223F5FC70016F4DE /* MainTabbarViewController.m in Sources */,
+				7573D80022434F3900C09500 /* JFCityTableViewCell.m in Sources */,
 				7565A8872240BBF8005653EB /* MineBaseInfoViewController.m in Sources */,
 				7565A87E224089E9005653EB /* MoreDropDownMenuRowCell.m in Sources */,
 				7565A88E2240CF35005653EB /* HomePageTableViewCell.m in Sources */,

@@ -70,7 +70,7 @@
         self.userlab.text =  @"登录/注册";
     }
     
-    
+    [self.mainTableView reloadData];
 }
 
 
@@ -119,7 +119,6 @@
         _mainTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _mainTableView.tableHeaderView = self.headerView;
         _mainTableView.tableFooterView = self.footerView;
-
     }
     return _mainTableView;
 }

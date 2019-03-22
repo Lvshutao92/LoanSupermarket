@@ -9,20 +9,76 @@
 #import "InfoBaseViewController.h"
 #import "MJRefresh.h"
 
+#import "JFLocation.h"
+#import "JFLocation.h"
+#import "JFAreaDataManager.h"
+#define KCURRENTCITYINFODEFAULTS [NSUserDefaults standardUserDefaults]
 
 
-@interface InfoBaseViewController ()
+@interface InfoBaseViewController ()<JFLocationDelegate>
 {
     UIImage *navigationBarimg;
 }
+
+/** 城市定位管理器*/
+@property (nonatomic, strong) JFLocation *locationManager;
+/** 城市数据管理器*/
+@property (nonatomic, strong) JFAreaDataManager *manager;
 @end
 
 @implementation InfoBaseViewController
+- (JFAreaDataManager *)manager {
+    if (!_manager) {
+        _manager = [JFAreaDataManager shareInstance];
+        [_manager areaSqliteDBData];
+    }
+    return _manager;
+}
+#pragma mark --- JFLocationDelegate
+//定位中...
+- (void)locating {
+    NSLog(@"定位中...");
+}
+//定位成功
+- (void)currentLocation:(NSDictionary *)locationDictionary {
+    NSString *city = [locationDictionary valueForKey:@"City"];
+    
+        [self.localButton setTitle:city forState:UIControlStateNormal];
+//    NSLog(@"%@--------------%@",city,self.localButton.titleLabel.text);
+//    
+//    if (![self.localButton.titleLabel.text isEqualToString:city]) {
+//        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:[NSString stringWithFormat:@"您定位到%@，确定切换城市吗？",city] preferredStyle:UIAlertControllerStyleAlert];
+//        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+//        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    
+            [KCURRENTCITYINFODEFAULTS setObject:city forKey:@"locationCity"];
+            [KCURRENTCITYINFODEFAULTS setObject:city forKey:@"currentCity"];
+            [self.manager cityNumberWithCity:city cityNumber:^(NSString *cityNumber) {
+                [KCURRENTCITYINFODEFAULTS setObject:cityNumber forKey:@"cityNumber"];
+            }];
+//        }];
+//        [alertController addAction:cancelAction];
+//        [alertController addAction:okAction];
+//        [self presentViewController:alertController animated:YES completion:nil];
+//    }
+}
+
+/// 拒绝定位
+- (void)refuseToUsePositioningSystem:(NSString *)message {
+    NSLog(@"%@",message);
+}
+/// 定位失败
+- (void)locateFailure:(NSString *)message {
+    NSLog(@"%@",message);
+}
 
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-
+    
+    self.locationManager = [[JFLocation alloc] init];
+    _locationManager.delegate = self;
+    
    //[self.navigationController.view insertSubview:self.navBarView belowSubview:self.navigationController.navigationBar];
 
     [self.navigationController.view insertSubview:self.navBarView aboveSubview:self.navigationController.navigationBar];
@@ -50,7 +106,10 @@
         self.localButton.frame = CGRectMake(0, kStatusBarHeight, 80, 44);
         self.localButton.titleLabel.font = FONT(14);
         [self.localButton setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
-        [self.localButton setTitle:@"定位失败" forState:UIControlStateNormal];
+        
+        
+        
+        //[self.localButton setTitle:[KCURRENTCITYINFODEFAULTS ] forState:UIControlStateNormal];
     }
     return _localButton;
 }

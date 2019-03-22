@@ -23,6 +23,7 @@
 //----------------------------------------------BASE--------------------------
 
 
+#import <FMDB.h>
 #import <SDCycleScrollView/SDCycleScrollView.h>
 #import "UIImageView+WebCache.h"
 #import <AFNetworking.h>

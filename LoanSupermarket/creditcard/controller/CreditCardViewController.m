@@ -83,7 +83,7 @@
 }
 /** 点击图片回调 */
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index{
-    
+    NSLog(@"=======%ld",index);
 }
 #pragma mark - 分类
 - (UIView *)fenleiView{
@@ -102,7 +102,13 @@
     btn.titleLabel.textColor = UIColor.lightGrayColor;
     [self.fenleiView addSubview:btn];
     [btn touchAction:^(SQCustomButton * _Nonnull button) {
-        
+        if ([GlobleStting getpwd].length>0) {
+            
+        }else{
+            LoginViewController *vc = [[LoginViewController alloc]init];
+            vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+            [self presentViewController:vc animated:YES completion:nil];
+        }
     }];
     
     SQCustomButton *btn1 = [[SQCustomButton alloc]initWithFrame:CGRectMake(SCREEN_WIDTH/2, 0, SCREEN_WIDTH/2, 100) type:SQCustomButtonTopImageType imageSize:CGSizeMake(45, 45) midmargin:5];
@@ -112,7 +118,13 @@
     btn1.titleLabel.textColor = UIColor.lightGrayColor;
     [self.fenleiView addSubview:btn1];
     [btn1 touchAction:^(SQCustomButton * _Nonnull button) {
-        
+        if ([GlobleStting getpwd].length>0) {
+            
+        }else{
+            LoginViewController *vc = [[LoginViewController alloc]init];
+            vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+            [self presentViewController:vc animated:YES completion:nil];
+        }
     }];
 }
 
