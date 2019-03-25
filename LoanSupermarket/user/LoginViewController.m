@@ -41,8 +41,6 @@
     [self.view addSubview:topimg];
     
     
-    
-    
     [self.view addSubview:self.mobileview];
     [self.view addSubview:self.loginBtn];
     
@@ -59,8 +57,6 @@
     tixbtn.titleLabel.text = @"未注册用户将直接为您注册";
     tixbtn.titleLabel.font = FONT(12);
     [self.view addSubview:tixbtn];
-    
-    
     
 }
 
@@ -95,8 +91,6 @@
         return;
     }
     
-    
-    
     [GlobleStting setUsername:phonetext];
     [GlobleStting setPassword:codetext];
     [SVProgressHUD showSuccessWithStatus:@"登录成功"];
@@ -104,9 +98,6 @@
         [self dismissViewControllerAnimated:YES completion:nil];
     }];
 }
-
-
-
 
 
 - (void)sendPhoneValue:(NSString *)phoneValue{
@@ -118,15 +109,5 @@
 
 
 
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

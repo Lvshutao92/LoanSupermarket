@@ -26,7 +26,6 @@
     if (self = [super initWithFrame:frame]) {
         
         
-        
         _phoneT = [ZCControl createTextFieldWithFrame:CGRectMake(10, 20, SCREEN_WIDTH-20, 40) placeholder:@"请输入您的手机号" textColor:UIColor.blackColor Font:18 Alignment:NSTextAlignmentLeft];
         _phoneT.delegate = self;
         _phoneT.clearButtonMode = UITextFieldViewModeWhileEditing;
@@ -37,8 +36,6 @@
         [self addSubview:lin1];
         
         [_phoneT addTarget:self action:@selector(changedPhoneTextField:) forControlEvents:UIControlEventEditingChanged];
-        
-        
         
         
         _codeT = [ZCControl createTextFieldWithFrame:CGRectMake(10, 80, SCREEN_WIDTH-100, 40) placeholder:@"请输入验证码" textColor:UIColor.blackColor Font:18 Alignment:NSTextAlignmentLeft];
