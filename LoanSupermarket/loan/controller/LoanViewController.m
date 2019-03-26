@@ -104,7 +104,8 @@
     return kNavBarHAbove7;
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-    _menu = [[MoreDropDownMenu alloc] initWithOrigin:CGPointMake(0, 0) andHeight:kNavBarHAbove7];
+    
+    _menu = [[MoreDropDownMenu alloc] initWithOrigin:CGPointMake(0, 50) andHeight:kNavBarHAbove7];
     _menu.delegate = self;
     _menu.dataSource = self;
     return _menu;

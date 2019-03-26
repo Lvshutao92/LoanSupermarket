@@ -40,7 +40,7 @@
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state. 红玫瑰 百合 康乃馨 香槟玫瑰 粉玫瑰 绣球 蓝色妖姬 向日葵 满天星 混搭花束 玫瑰礼盒 七彩玫瑰 洋桔梗 雏菊 进口花 白玫瑰 蝴蝶兰 非洲菊
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
 }
 

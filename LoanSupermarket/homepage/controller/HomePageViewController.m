@@ -241,7 +241,7 @@
 }
 - (UILabel *)tuijianEDu{
     if (!_tuijianEDu) {
-        _tuijianEDu = [ZCControl createLabelWithFrame:CGRectMake(10, 80, SCREEN_WIDTH-20, 50) Font:32 Text:@"4000~5W" textColor:UIColor.blackColor NSTextAlignment:NSTextAlignmentCenter];
+        _tuijianEDu = [ZCControl createLabelWithFrame:CGRectMake(10, 80, SCREEN_WIDTH-20, 50) Font:32 Text:@"4000~6000" textColor:UIColor.blackColor NSTextAlignment:NSTextAlignmentCenter];
     }
     return _tuijianEDu;
 }

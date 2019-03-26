@@ -34,6 +34,7 @@
 		185C49A9223F63BB0016F4DE /* InfoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49A7223F63BB0016F4DE /* InfoBaseViewController.m */; };
 		185C49AC223F64250016F4DE /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49AB223F64250016F4DE /* HomePageViewController.m */; };
 		185C49B2223F71960016F4DE /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C49B1223F71960016F4DE /* Manager.m */; };
+		750A3F2A2249EC4200989003 /* AccountLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750A3F292249EC4200989003 /* AccountLoginView.m */; };
 		7565A87622407460005653EB /* SQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A87522407460005653EB /* SQButton.m */; };
 		7565A87D224089E9005653EB /* MoreDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A87A224089E8005653EB /* MoreDropDownMenu.m */; };
 		7565A87E224089E9005653EB /* MoreDropDownMenuRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565A87C224089E9005653EB /* MoreDropDownMenuRowCell.m */; };
@@ -146,6 +147,8 @@
 		185C49B0223F71960016F4DE /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		185C49B1223F71960016F4DE /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 		6BC4B37E708A73382D47DE04 /* Pods-LoanSupermarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanSupermarket.release.xcconfig"; path = "Target Support Files/Pods-LoanSupermarket/Pods-LoanSupermarket.release.xcconfig"; sourceTree = "<group>"; };
+		750A3F282249EC4200989003 /* AccountLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountLoginView.h; sourceTree = "<group>"; };
+		750A3F292249EC4200989003 /* AccountLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountLoginView.m; sourceTree = "<group>"; };
 		7565A87422407460005653EB /* SQButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQButton.h; sourceTree = "<group>"; };
 		7565A87522407460005653EB /* SQButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQButton.m; sourceTree = "<group>"; };
 		7565A879224089E8005653EB /* MoreDropDownMenuRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDropDownMenuRowCell.h; sourceTree = "<group>"; };
@@ -460,6 +463,8 @@
 			children = (
 				756A9C4C2242020D00D4A272 /* MobileLoginView.h */,
 				756A9C4D2242020D00D4A272 /* MobileLoginView.m */,
+				750A3F282249EC4200989003 /* AccountLoginView.h */,
+				750A3F292249EC4200989003 /* AccountLoginView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -851,6 +856,7 @@
 				185C4988223F5FC70016F4DE /* MainBaseViewController.m in Sources */,
 				75794BC12241C98D00870AB5 /* MineModel.m in Sources */,
 				185C49A9223F63BB0016F4DE /* InfoBaseViewController.m in Sources */,
+				750A3F2A2249EC4200989003 /* AccountLoginView.m in Sources */,
 				756A9C542242198700D4A272 /* GlobleStting.m in Sources */,
 				185C499A223F63A80016F4DE /* WMPageController.m in Sources */,
 				185C4972223F5FB40016F4DE /* CreditCardViewController.m in Sources */,

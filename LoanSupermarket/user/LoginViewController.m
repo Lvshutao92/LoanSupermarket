@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "MobileLoginView.h"
-
+#import "RegisterViewController.h"
 @interface LoginViewController ()<PhoneCodeDelegate>
 {
     NSString *phonetext;
@@ -48,6 +48,11 @@
     self.changeLoginStyleBtn = [[SQCustomButton alloc]initWithFrame:CGRectMake(50, kNavBarHAbove7 +320, SCREEN_WIDTH-100, 40) type:SQCustomButtonRightImageType imageSize:CGSizeMake(15, 15) midmargin:5];
     self.changeLoginStyleBtn.titleLabel.text = @"账号密码登录";
     self.changeLoginStyleBtn.imageView.image = [UIImage imageNamed:@"rightjt"];
+    [self.changeLoginStyleBtn touchAction:^(SQCustomButton * _Nonnull button) {
+        RegisterViewController *vc = [[RegisterViewController alloc]init];
+        vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        [self presentViewController:vc animated:YES completion:nil];
+    }];
     [self.view addSubview:self.changeLoginStyleBtn];
     // Do any additional setup after loading the view.
     

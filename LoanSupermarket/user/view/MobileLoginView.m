@@ -89,15 +89,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 - (void)setPhoneText:(NSString *)phoneText{
     _phoneText = phoneText;
     _phoneT.text = phoneText;
