@@ -233,6 +233,7 @@
 - (void)setupTuijianSet{
     UILabel *lab = [ZCControl createLabelWithFrame:CGRectMake(80, 40, SCREEN_WIDTH-160, 20) Font:12 Text:@"🌟无需下载APP|额度高、放款快、利率低" textColor:UIColor.lightGrayColor NSTextAlignment:NSTextAlignmentCenter];
     [self.tuijianView addSubview:lab];
+    
     UIView *lin1 = [ZCControl viewWithFrame:CGRectMake(10, 49.5, 70, 1) viewColor:UIColor.lightGrayColor];
     [self.tuijianView addSubview:lin1];
     
@@ -251,8 +252,10 @@
 - (void)headerLookMore{
     UIView *bgv = [ZCControl viewWithFrame:CGRectMake(0, 520, SCREEN_WIDTH, 40) viewColor:UIColor.whiteColor];
     [self.headerView addSubview:bgv];
+    
     UIView *line = [ZCControl viewWithFrame:CGRectMake(0, 560, SCREEN_WIDTH, 1) viewColor:COLOR(.8, .3)];
     [self.headerView addSubview:line];
+    
     UILabel *titlelab = [ZCControl createLabelWithFrame:CGRectMake(10, 0, 100, 40) Font:16 Text:@"今日爆款" textColor:UIColor.blackColor NSTextAlignment:NSTextAlignmentLeft];
     [bgv addSubview:titlelab];
     
